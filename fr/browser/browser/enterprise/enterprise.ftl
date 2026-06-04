@@ -13,6 +13,15 @@ enterprise-panel-information = Vous êtes identifiés dans un navigateur géré 
 enterprise-panel-learn-more = En savoir plus
 enterprise-panel-sign-out-btn =
     .label = Se déconnecter…
+# $tabCount (Number) - the number of open tabs
+enterprise-signout-prompt-title2 =
+    { $tabCount ->
+        [one] Se déconnecter de { -brand-short-name } ?
+       *[other] Se déconnecter et fermer { $tabCount } onglets ?
+    }
+enterprise-signout-prompt-message = Vous êtes sur le point de vous déconnecter de votre navigateur { -brand-short-name }. Pour pouvoir l’utiliser à nouveau, vous devrez vous ré-authentifier via le fournisseur d’identification de votre entreprise.
+enterprise-signout-prompt-checkbox-label = Afficher ce message lors de la déconnexion.
+enterprise-signout-prompt-primary-btn-label = Déconnexion
 enterprise-close-prompt-title = Fermer { -brand-short-name } ?
 # Variables:
 #   $tabCount (Number): The number of tabs to be closed.
@@ -65,6 +74,7 @@ neterror-blocked-by-policy-contact-admin = Si vous pensez que c’est une erreur
 enterprise-access-connector-heading = Connecteur d’accès
 enterprise-access-connector-info-active = Ce site est consulté via une connexion sécurisée d’entreprise.
 enterprise-access-connector-button =
+    .label = Connecteur d’accès
     .tooltiptext = Connecteur d’accès
 enterprise-access-connector-status-label-active = actif
 enterprise-access-connector-status-label-inactive = inactif
