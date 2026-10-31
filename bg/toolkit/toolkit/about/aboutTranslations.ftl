@@ -4,6 +4,9 @@
 
 # The brief description of the Translations functionality on the page.
 about-translations-description = Незабавни преводи, които зачитат вашата поверителност.
+# Placeholder text shown in the source-language text area when the user has not typed any text.
+about-translations-input-placeholder =
+    .placeholder = Въведете текст за превод
 # Text displayed on the source-language selector when no explicit option is selected
 # and no language has been identified from the content of the source-language text area.
 about-translations-detect-default-label =

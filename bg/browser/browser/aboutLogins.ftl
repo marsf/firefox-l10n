@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Внасяне от д�
 about-logins-menu-menuitem-import-from-a-file = Внасяне от файл…
 about-logins-menu-menuitem-export-logins2 = Изнасяне на пароли…
 about-logins-menu-menuitem-remove-all-logins2 = Премахване на всички пароли…
+about-logins-menu-menuitem-delete-all-logins = Изтриване на всички пароли…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Настройки
@@ -89,6 +90,7 @@ about-logins-intro-import3 = За да добавите парола изпол�
 about-logins-login-item-new-login-title = Добавяне на парола
 login-item-edit-button = Редактиране
 about-logins-login-item-remove-button = Премахване
+about-logins-login-item-delete-button = Изтриване
 login-item-origin-label = Адрес на страницата
 about-logins-origin-tooltip2 = Въведете пълния адрес и се уверете че има точно съвпадение със страницата, в която влизате.
 # Variables
@@ -191,6 +193,13 @@ about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
         [one] Да, премахване на паролата
        *[other] Да, премахване на паролите
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] Да, изтриване на паролата
+        [one] Да, изтриване на паролата
+       *[other] Да, изтриване на паролите
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =

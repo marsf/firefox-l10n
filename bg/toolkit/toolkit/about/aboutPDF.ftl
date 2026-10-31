@@ -7,3 +7,7 @@ about-pdf-dropzone-hint = Пуснете PDF файл тук за да запо�
 about-pdf-promo =
     .heading = Направете { -brand-short-name } вашият любим редактор на PDF
     .message = Отваряйте PDF файлове във { -brand-short-name } и работете на едно място – от подчертаване и подписване до обединяване на файлове и коментари.
+
+## The about:pdf#features page.
+
+about-pdf-feature-annotate-description = Добавяне на текст, акценти и чертежи.
