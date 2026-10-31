@@ -42,6 +42,9 @@ credit-card-capture-save-button =
 credit-card-capture-cancel-button =
     .label = Şimdi değil
     .accessKey = m
+credit-card-capture-never-save-payment-methods-button =
+    .label = Ödeme yöntemlerini asla kaydetme
+    .accessKey = Ö
 credit-card-capture-never-save-button =
     .label = Kartları asla kaydetme
     .accessKey = a
@@ -106,6 +109,17 @@ credit-card-capture-update-payment-method-button =
 ## security code.
 
 credit-card-save-security-code-doorhanger-header = Güvenlik kodu kaydedilsin mi?
+
+## Used on the doorhanger when users submit a new card and security codes can be saved.
+
+credit-card-save-payment-method-doorhanger-header = Bu ödeme yöntemi kaydedilsin mi?
+# Also used on the doorhanger when a saved card is submitted with a new or
+# changed security code.
+# “Checkout” refers to the payment stage on websites.
+credit-card-save-payment-method-doorhanger-description = { -brand-short-name }, ödeme işlemini hızlandırmak için ödeme bilgilerinizi şifreleyip otomatik doldurur.
+credit-card-capture-dismiss-button =
+    .label = Kapat
+    .accessKey = K
 
 ## The toggle turns saving security codes on and off. Its label describes the
 ## current state: whether security codes are saved or not.

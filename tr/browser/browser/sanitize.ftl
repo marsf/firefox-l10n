@@ -65,6 +65,11 @@ clear-time-duration-suffix =
 ## to select the items to remove
 
 history-section-label = Geçmiş
+item-history-and-downloads2 =
+    .label = Gezinti ve indirme geçmişi
+    .accesskey = G
+# Description for the "Browsing and downloads history" item, which can be selected for deletion
+item-history-and-downloads-description3 = Ziyaret edilen siteler ve indirilenler listesi
 item-history-and-downloads =
     .label = Gezinti ve indirme geçmişi
     .accesskey = T
@@ -81,6 +86,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = Çerezler ve site verileri
     .accesskey = e
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = Oturumlarınızı kapatır ve alışveriş sepetlerinizi boşaltabilir
 item-cookies-site-data-description = Sitelerdeki oturumlarınızı kapatabilir ve alışveriş sepetlerinizi boşaltabilir
 item-active-logins =
     .label = Etkin oturumlar
@@ -88,6 +95,17 @@ item-active-logins =
 item-cache =
     .label = Önbellek
     .accesskey = n
+# Variables:
+#   $amount (Number) - Amount of cached data
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cached-content-with-size2 =
+    .label = Geçici dosyalar ({ $amount } { $unit })
+    .accesskey = e
+item-cached-content2 =
+    .label = Geçici dosyalar
+    .accesskey = e
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = Sitelerinin daha hızlı açılmasını sağlar
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
@@ -107,6 +125,8 @@ item-site-prefs =
 item-formdata-prefs =
     .label = Kayıtlı form bilgileri
     .accesskey = f
+# Description for the "Saved form info" item, which can be selected for deletion
+item-formdata-description2 = Adlar, e-postalar ve form verileri
 # Description for the "Site settings" item, which can be selected for deletion
 item-site-prefs-description2 = Web sitesi izinleri ve tercihleri
 item-formdata-description = Formlara girdiğiniz adları, e-postaları ve diğer kayıtları temizler

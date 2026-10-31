@@ -534,6 +534,8 @@ restore-session-startup-suggestion-button = Nasıl yapacağımı göster
 ## is shown in a row with its name, web address and an “Add” button.
 
 taskbar-tabs-spotlight-title = Sevdiğiniz siteleri uygulama gibi açın
+# Heading above the list of suggested websites.
+taskbar-tabs-spotlight-sites-heading = Görev çubuğunuza eklemek istediklerinizi seçin
 # Button shown in each row of the list of websites. Clicking it adds the
 # website in that row to the Windows taskbar.
 taskbar-tabs-spotlight-add-button = Ekle
