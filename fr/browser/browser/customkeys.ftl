@@ -91,8 +91,8 @@ customkeys-key-unchangeable = (non modifiable)
 # names these settings in your language. "set" here means "assigned".
 customkeys-key-system-assigned =
     { PLATFORM() ->
-        [macos] (à définir dans les paramètres du clavier de macOS)
-       *[other] (à définir dans les paramètres du clavier de votre système)
+        [macos] (défini dans les réglages du clavier de macOS)
+       *[other] (défini dans les paramètres du clavier de votre système)
     }
 
 ## Confirmation dialogs

@@ -126,7 +126,7 @@ item-formdata-prefs =
     .label = Informations de formulaire enregistrées
     .accesskey = n
 # Description for the "Saved form info" item, which can be selected for deletion
-item-formdata-description2 = noms, adresses e-mail et entrées de formulaire
+item-formdata-description2 = Noms, adresses e-mail et données saisies dans les formulaires
 # Description for the "Site settings" item, which can be selected for deletion
 item-site-prefs-description2 = Permissions et préférences des sites web
 item-formdata-description = Efface des informations telles que les noms, les adresses e-mail et les autres informations que vous saisissez dans les formulaires

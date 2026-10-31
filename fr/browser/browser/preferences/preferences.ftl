@@ -1407,7 +1407,7 @@ autofill-payment-methods-manage-payments-button =
     .accesskey = G
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-payment-methods-require-device-sign-in-checkbox =
-    .label = Exiger la connexion de l’appareil pour le remplissage automatique
+    .label = Exiger l’authentification sur l’appareil pour le remplissage automatique
     .accesskey = E
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox-2 =
