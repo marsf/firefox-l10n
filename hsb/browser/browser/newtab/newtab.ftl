@@ -835,6 +835,7 @@ newtab-discovery-empty-section-topstories-header = Sće dosćehnjeny!
 newtab-discovery-empty-section-topstories-content = Hladajće pozdźišo za wjace stawiznami.
 newtab-discovery-empty-section-topstories-try-again-button = Hišće raz spytać
 newtab-discovery-empty-section-topstories-loading = Začita so…
+newtab-discovery-empty-section-topstories-unavailable-body = Přepruwujće swój zwisk abo spytajće pozdźišo hišće raz.
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Hopla! Smy tutón wotrězk bjezmała začitali, ale nic cyle.
 
@@ -1573,6 +1574,9 @@ newtab-promo-card-dismiss-button =
 newtab-crossword-widget-open-menu-button =
     .aria-label = Meni křižowki wočinić
     .title = Meni křižowki wočinić
+# Context menu item linking to the Particle website, the provider of the
+# crossword. “Particle” is a brand name and should not be translated.
+newtab-crossword-menu-powered-by-particle = Wot Particle spěchowany
 
 ## Strings introduced by the Nova redesign of the Timer widget
 

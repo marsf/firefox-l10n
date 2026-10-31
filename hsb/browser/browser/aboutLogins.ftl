@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Z druheho wobhladowaka 
 about-logins-menu-menuitem-import-from-a-file = Z dataje importować…
 about-logins-menu-menuitem-export-logins2 = Hesła eksportować…
 about-logins-menu-menuitem-remove-all-logins2 = Wšě hesła wotstronić…
+about-logins-menu-menuitem-delete-all-logins = Wšě hesła zhašeć…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Nastajenja
@@ -183,6 +184,8 @@ about-logins-confirm-delete-dialog-title = Hesło wotstronić?
 about-logins-confirm-delete-dialog-title2 = Hesło zhašeć?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Njemóžeće tutu akciju cofnyć.
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = To jo z { -brand-short-name } na kóždym graće zhaša, kotryž waše synchronizuje. Njemóžeće to cofnyć.
 about-logins-confirm-remove-dialog-confirm-button = Wotstronić
 # Confirm button for the modal to delete one saved password when per-device sync is enabled
 about-logins-confirm-delete-dialog-confirm-button = Zhašeć
@@ -215,6 +218,15 @@ about-logins-confirm-remove-all-dialog-checkbox-label2 =
         [two] Haj, hesle wotstronić
         [few] Haj, hesła wotstronić
        *[other] Haj, hesła wotstronić
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] Haj, hesło zhašeć
+        [one] Haj, hesło zhašeć
+        [two] Haj, hesle zhašeć
+        [few] Haj, hesła zhašeć
+       *[other] Haj, hesła zhašeć
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
