@@ -68,6 +68,8 @@ history-section-label = Historikk
 item-history-and-downloads2 =
     .label = Nettleser- og nedlastingshistorikk
     .accesskey = N
+# Description for the "Browsing and downloads history" item, which can be selected for deletion
+item-history-and-downloads-description3 = Besøkte nettsteder og nedlastingsliste
 item-history-and-downloads =
     .label = Nettleser- og nedlastingshistorikk
     .accesskey = N
@@ -84,6 +86,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = Infokapsler og nettstedsdata
     .accesskey = n
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = Logger deg ut og kan tømme handlekurver
 item-cookies-site-data-description = Kan logge deg av nettsteder eller tømme handlekurver
 item-active-logins =
     .label = Aktive innlogginger
@@ -91,6 +95,17 @@ item-active-logins =
 item-cache =
     .label = Hurtiglager for nettsider
     .accesskey = H
+# Variables:
+#   $amount (Number) - Amount of cached data
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cached-content-with-size2 =
+    .label = Midlertidige filer ({ $amount } { $unit })
+    .accesskey = f
+item-cached-content2 =
+    .label = Midlertidige filer
+    .accesskey = f
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = Hjelper nettsteder med å laste raskere
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
@@ -110,6 +125,10 @@ item-site-prefs =
 item-formdata-prefs =
     .label = Lagret skjemainformasjon
     .accesskey = a
+# Description for the "Saved form info" item, which can be selected for deletion
+item-formdata-description2 = Navn, e-postadresser og skjemaoppføringer
+# Description for the "Site settings" item, which can be selected for deletion
+item-site-prefs-description2 = Nettstedstillatelser og -innstillinger
 item-formdata-description = Fjerner ting som navn, e-postadresser og andre elementer du skriver inn i skjemaer
 item-site-prefs-description = Tilbakestiller tillatelsene og nettstedsinnstillinger til de opprinnelige innstillingene
 data-section-label = Data
@@ -119,6 +138,7 @@ item-site-settings =
 item-offline-apps =
     .label = Frakoblet nettstedsdata
     .accesskey = F
+sanitize-everything-undo-warning2 = Dette kan ikke angres.
 sanitize-everything-undo-warning = Denne handlingen kan ikke angres.
 window-close =
     .key = w

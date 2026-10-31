@@ -114,6 +114,10 @@ neterror-dns-not-found-offline-hint-reconnect = Koble fra og koble til Wi-Fi på
 neterror-loopback-refused-not-running = Ingenting godtar tilkoblinger på port { $port }. Sjekk at den lokale serveren din kjører.
 # "it" is the local server that the user is trying to reach.
 neterror-loopback-refused-wrong-port = Hvis den kjører, sjekk at den bruker port { $port }.
+# "this address" is the IP address of the page that failed to load, for example
+# 127.0.0.1 or [::1]. Do not translate or reformat the literal addresses [::1]
+# and 127.0.0.1 in the text.
+neterror-loopback-refused-address = Kontroller at serveren godtar tilkoblinger på denne adressen. Noen servere lytter bare på [::1] eller bare på 127.0.0.1.
 
 ## TRR-only specific messages
 ## Variables:

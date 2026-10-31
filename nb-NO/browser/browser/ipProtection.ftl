@@ -466,5 +466,6 @@ vpn-error-page-new-session = Start en ny programøkt
 vpn-paused-alert-close-tabs-button = Lukk alle faner
 vpn-paused-alert-continue-wo-vpn-button = Fortsett uten VPN
 vpn-error-alert-title-1 = VPN og regler fungerer ikke akkurat nå.
+vpn-error-alert-body-1 = Det kan hjelpe å slå VPN av og på.
 vpn-error-alert-title = VPN fungerer ikke akkurat nå.
 vpn-error-alert-body = Prøv igjen senere.
