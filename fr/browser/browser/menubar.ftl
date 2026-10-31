@@ -272,7 +272,7 @@ menu-bookmarks-mobile =
 # The native macOS menu may limit the number of query results. When that happens,
 # this item opens the bookmarks or history sidebar to show more results.
 menu-places-show-more-in-sidebar =
-    .label = Afficher plus dans la barre latérale
+    .label = Afficher plus de résultats dans le panneau latéral
 
 ## Profiles Menu
 
