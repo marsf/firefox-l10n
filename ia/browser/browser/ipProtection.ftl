@@ -465,5 +465,7 @@ vpn-error-page-keep-browsing = Continuar a navigar in iste session
 vpn-error-page-new-session = Comenciar un nove session
 vpn-paused-alert-close-tabs-button = Clauder tote le schedas
 vpn-paused-alert-continue-wo-vpn-button = Continuar sin VPN
+vpn-error-alert-title-1 = VPN e regulas non functiona a iste momento.
+vpn-error-alert-body-1 = Disactivar e reactivar le VPN pote remediar le problema.
 vpn-error-alert-title = Le VPN non functiona a iste momento.
 vpn-error-alert-body = Retenta plus tarde.
