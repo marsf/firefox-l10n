@@ -583,6 +583,9 @@ newtab-travel-widget-open-menu-button =
     .title = Åpne reisemenyen
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = Les mer
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Drevet av Kayak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
@@ -814,6 +817,8 @@ newtab-discovery-empty-section-topstories-header = Du har lest alt!
 newtab-discovery-empty-section-topstories-content = Kom tilbake senere for flere artikler.
 newtab-discovery-empty-section-topstories-try-again-button = Prøv igjen
 newtab-discovery-empty-section-topstories-loading = Laster…
+# Headline and body shown when stories fail to load, for example when offline or the server can’t be reached.
+newtab-discovery-empty-section-topstories-unavailable-header = Artikler er ikke tilgjengelige akkurat nå
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Ops! Vi lastet nesten denne delen, men ikke helt.
 

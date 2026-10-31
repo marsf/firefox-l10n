@@ -242,6 +242,12 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
         [1] Dette vil fjerne passordet som er lagret i { -brand-short-name } på alle de synkroniserte enhetene dine. Dette vil også fjerne alle varsler om datalekkasjer som vises her. Du kan ikke angre denne handlingen.
        *[other] Dette vil fjerne alle passord som er lagret i { -brand-short-name } på alle de synkroniserte enhetene dine. Dette vil også fjerne alle varsler om datalekkasjer som vises her. Du kan ikke angre denne handlingen.
     }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] Dette sletter passordet fra { -brand-short-name } på alle enheter som synkroniserer passordene dine. Du kan ikke angre dette.
+       *[other] Dette sletter passordene fra { -brand-short-name } på alle enheter som synkroniserer passordene dine. Du kan ikke angre dette.
+    }
 
 ##
 

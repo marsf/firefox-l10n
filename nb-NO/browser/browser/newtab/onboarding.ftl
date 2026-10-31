@@ -626,6 +626,7 @@ onboarding-carousel-nav =
 
 ## Welcome Back Onboarding
 
+welcome-back-onboarding-title = Nye funksjoner som er utviklet for å hjelpe deg med å gjøre mer
 welcome-back-onboarding-primary-button-label = Begynn å surfe
 welcome-back-onboarding-secondary-button-label = Se hva annet som er nytt
 # Pill label for features that allow you to tidy up your tabs

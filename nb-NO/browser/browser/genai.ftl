@@ -96,6 +96,7 @@ genai-more-actions-copy =
 genai-more-actions-all-off-notice = Du vil ikke se denne menyen når du markerer tekst. Gå til «Innstillinger» <span data-l10n-name="chevron"></span> «Faner og nettlesing» for å vise den igjen.
 genai-more-actions-manage-settings =
     .label = Behandle innstillinger
+genai-selection-callout-title = Marker tekst for å velge en handling
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = Spør { $provider }
