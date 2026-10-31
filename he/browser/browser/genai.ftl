@@ -73,6 +73,8 @@ genai-more-actions-all-off-notice = תפריט זה לא יוצג בעת בחי�
 genai-more-actions-manage-settings =
     .label = ניהול הגדרות
 genai-selection-callout-title = יש לסמן טקסט כדי לבחור בפעולה
+# "Search" and "Copy" are verbs.
+genai-selection-callout-text = חיפוש או העתקה בעת בחירת טקסט. ניתן לבחור אילו פעולות יופיעו יחד עם התפריט <span data-l10n-name="more-actions">•••</span>.
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = לשאול את { $provider }

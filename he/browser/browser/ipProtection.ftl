@@ -464,5 +464,7 @@ vpn-error-page-keep-browsing = המשך גלישה בהפעלה זו
 vpn-error-page-new-session = התחלת הפעלה חדשה
 vpn-paused-alert-close-tabs-button = סגירת כל הלשוניות
 vpn-paused-alert-continue-wo-vpn-button = המשך ללא VPN
+vpn-error-alert-title-1 = ה־VPN והכללים לא עובדים כרגע.
+vpn-error-alert-body-1 = הפעלה וכיבוי ה־VPN עשויים לפתור את הבעיה.
 vpn-error-alert-title = ה־VPN לא עובד כרגע.
 vpn-error-alert-body = נא לנסות שוב מאוחר יותר.
