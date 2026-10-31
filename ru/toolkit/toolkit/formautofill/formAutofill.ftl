@@ -104,6 +104,12 @@ credit-card-doorhanger-card-details-name-expiration-security-code = { $name } | 
 credit-card-capture-update-payment-method-button =
     .label = Обновить
     .accessKey = Г
+credit-card-update-saved-payment-method-doorhanger-header = Обновить сохранённый способ оплаты?
+# Saves the submitted details as a new payment method instead of updating
+# the saved one.
+credit-card-capture-save-as-new-payment-method-button =
+    .label = Сохранить как новый
+    .accessKey = Ы
 
 ## Used on the doorhanger when a saved card is submitted with a new or changed
 ## security code.

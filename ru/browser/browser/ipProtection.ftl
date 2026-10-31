@@ -466,5 +466,7 @@ vpn-error-page-keep-browsing = Продолжить веб-сёрфинг в э�
 vpn-error-page-new-session = Начать новую сессию
 vpn-paused-alert-close-tabs-button = Закрыть все вкладки
 vpn-paused-alert-continue-wo-vpn-button = Продолжить без VPN
+vpn-error-alert-title-1 = VPN и правила сейчас не работают.
+vpn-error-alert-body-1 = Включение и выключение VPN может решить эту проблему.
 vpn-error-alert-title = VPN сейчас не работает.
 vpn-error-alert-body = Попробуйте снова позже.

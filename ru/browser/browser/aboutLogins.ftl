@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Импорт из др�
 about-logins-menu-menuitem-import-from-a-file = Импорт из файла…
 about-logins-menu-menuitem-export-logins2 = Экспорт паролей…
 about-logins-menu-menuitem-remove-all-logins2 = Удалить все пароли…
+about-logins-menu-menuitem-delete-all-logins = Удалить все пароли…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Настройки
@@ -91,6 +92,7 @@ about-logins-intro-import3 = Нажмите кнопку со значком п�
 about-logins-login-item-new-login-title = Добавить пароль
 login-item-edit-button = Изменить
 about-logins-login-item-remove-button = Удалить
+about-logins-login-item-delete-button = Удалить
 login-item-origin-label = Адрес веб-сайта
 about-logins-origin-tooltip2 = Введите полный адрес и убедитесь, что он точно соответствует тому, где вы входите в систему.
 # Variables
@@ -176,9 +178,15 @@ confirmation-dialog-dismiss-button =
     .title = Отмена
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Удалить пароль?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Удалить пароль?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Вы не можете отменить это действие.
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = Это действие удалит его из { -brand-short-name } на всех устройствах, которые синхронизируют ваши пароли. Вы не сможете отменить это.
 about-logins-confirm-remove-dialog-confirm-button = Удалить
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Удалить
 
 ## Variables
 ##   $count (number) - Number of items
@@ -190,8 +198,24 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [few] Удалить все
        *[many] Удалить все
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Удалить
+        [one] Удалить все
+        [few] Удалить все
+       *[many] Удалить все
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Да, удалить пароль
+        [one] Да, удалить пароль
+        [few] Да, удалить пароли
+       *[many] Да, удалить пароли
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
     { $count ->
         [1] Да, удалить пароль
         [one] Да, удалить пароль
@@ -220,6 +244,13 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [few] Удалить { $count } пароля со всех устройств?
        *[many] Удалить все { $count } паролей со всех устройств?
     }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] Удалить { $count } пароль?
+        [few] Удалить { $count } пароля?
+       *[many] Удалить { $count } паролей?
+    }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
     { $count ->
@@ -227,6 +258,14 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
         [one] Это приведёт к удалению пароля, сохранённого в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
         [few] Это приведёт к удалению паролей, сохранённых в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
        *[many] Это приведёт к удалению паролей, сохранённых в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
+    }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] Это действие удалит его из { -brand-short-name } на всех устройствах, которые синхронизируют ваши пароли. Вы не сможете отменить это.
+        [one] Это действие удалит его из { -brand-short-name } на каждом устройстве, которое синхронизирует ваши пароли. Вы не сможете отменить это.
+        [few] Это действие удалит их из { -brand-short-name } на каждом устройстве, которое синхронизирует ваши пароли. Вы не сможете отменить это.
+       *[many] Это действие удалит их из { -brand-short-name } на каждом устройстве, которое синхронизирует ваши пароли. Вы не сможете отменить это.
     }
 
 ##
