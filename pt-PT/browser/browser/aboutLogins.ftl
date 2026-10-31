@@ -248,7 +248,7 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
 # Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
 about-logins-confirm-delete-all-sync-dialog-message =
     { $count ->
-        [1] Isto apaga-a do { -brand-short-name } em todos os dispositivos que sincronize as suas palavras-passe. Não pode desfazer isto.
+        [1] Isto apaga-a do { -brand-short-name } em todos os dispositivos que sincronizem as suas palavras-passe. Não pode desfazer isto.
         [one] Isto apaga-a do { -brand-short-name } em todos os dispositivos que sincronizem as suas palavras-passe. Não pode desfazer isto.
        *[other] Isto apaga-as do { -brand-short-name } em todos os dispositivos que sincronizem as suas palavras-passe. Não pode desfazer isto.
     }

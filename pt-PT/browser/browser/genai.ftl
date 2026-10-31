@@ -96,6 +96,7 @@ genai-more-actions-copy =
 genai-more-actions-all-off-notice = Não irá ver este menu ao selecionar texto. Visite Definições <span data-l10n-name="chevron"></span> Separadores e navegue para o mostrar novamente.
 genai-more-actions-manage-settings =
     .label = Gerir definições
+genai-selection-callout-title = Destaque texto para escolher uma ação
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = Pedir ao { $provider }
