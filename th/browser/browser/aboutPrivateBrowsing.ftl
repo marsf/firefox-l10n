@@ -52,6 +52,11 @@ about-private-browsing-pin-promo-link-text =
     }
 about-private-browsing-pin-promo-title = ไม่เก็บบันทึกคุกกี้หรือประวัติใด ๆ และให้คุณท่องเว็บได้เหมือนไม่มีใครแอบมอง
 
+## Strings used in a promotion message for Firefox Relay
+
+about-private-browsing-relay-promo-header = ลดจำนวนจดหมายขยะลงด้วยตัวปกปิดอีเมล
+about-private-browsing-relay-promo-link-text = ทดลองใช้ตัวปกปิดอีเมล
+
 ## Strings used in a promotion message for cookie banner reduction
 
 # Simplified version of the headline if the original text doesn't work
@@ -73,3 +78,9 @@ about-private-browsing-nova-info-link = ใครบ้างที่ยัง�
 # are not being recorded. If there is not a comparable phrase in the locale,
 # fall back to "Your browsing will be deleted"
 about-private-browsing-nova-info-header = คุณกำลังใช้งานแบบไม่บันทึกประวัติ
+
+## Strings for the Private Window basics spotlight
+
+# This is a section header in the Private Window basics spotlight dialog,
+# introducing information about what users should know about Private Windows.
+about-private-browsing-spotlight-basics-what-to-know = สิ่งที่ควรรู้
