@@ -175,9 +175,13 @@ confirmation-dialog-dismiss-button =
     .title = Cancellar
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Remover le contrasigno?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Deler le contrasigno?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Tu non potera disfacer iste action.
 about-logins-confirm-remove-dialog-confirm-button = Remover
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Deler
 
 ## Variables
 ##   $count (number) - Number of items
@@ -186,6 +190,13 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
     { $count ->
         [1] Remover
        *[other] Remover toto
+    }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Deler
+        [one] Deler toto
+       *[other] Deler toto
     }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
