@@ -948,6 +948,8 @@ search-one-click-desc = Velg alternative søkemotorer som vises under adresselin
 search-one-click-header-3 =
     .description = Velg hvilke søkemotorer og snarveier som vises i adressefeltet.
     .label = Flere søkemotorer
+search-engine-list =
+    .aria-label = Søkemotorer og snarveier
 update-search-engine-success =
     .message = Søkemotoren er oppdatert
 search-edit-engine-2 =
@@ -1011,6 +1013,8 @@ containers-card-header2 =
 containers-add-button2 =
     .label = Legg til ny beholder
     .accesskey = L
+containers-list =
+    .aria-label = Beholdere
 containers-new-tab-check3 =
     .label = Velg en beholder for hver nye fane
     .accesskey = V
@@ -1144,6 +1148,10 @@ prefs-syncing-off = Synkronisering: AV
 prefs-syncing-off-2 =
     .description = Slå på synkronisering for å få bokmerkene, passordene, historikken og mer tilgjengelig på alle enhetene dine.
     .label = Synkronisering er AV
+# This string is shown when the user's device has per-device syncing enabled but sync is disabled on the device.
+prefs-syncing-off-3 =
+    .description = Slå på synkronisering for å få bokmerkene, passordene, historikken og mer på denne enheten.
+    .label = Synkronisering er AV
 prefs-sync-turn-on-syncing =
     .label = Slå på synkronisering…
     .accesskey = S
@@ -1167,6 +1175,7 @@ prefs-syncing-button-2 =
 
 sync-syncing-across-devices-heading = Du synkroniserer disse elementene mellom alle de tilkoblede enhetene dine:
 sync-syncing-across-devices-heading-2 = Data synkronisert på tvers av enheter
+sync-syncing-across-devices-heading-3 = Datasynkronisering på denne enheten
 sync-syncing-across-devices-empty-state2 =
     .description = Du synkroniserer ingenting … ennå. Start synkronisering for å få alle dataene dine på alle enhetene dine.
     .label = Behandle synkroniserte data
@@ -1229,6 +1238,13 @@ sync-choose-what-to-sync-dialog4 =
     .buttonaccesskeyextra2 = K
     .style = min-width: 36em;
     .title = Behandle hva som synkroniseres på alle de tilkoblede enhetene dine
+sync-choose-what-to-sync-dialog5 =
+    .buttonlabelaccept = Lagre
+    .buttonlabelextra2 = Koble fra …
+    .buttonaccesskeyaccept = L
+    .buttonaccesskeyextra2 = K
+    .style = min-width: 36em;
+    .title = Behandle hva som synkroniseres på denne enheten
 
 ## The device name controls.
 
@@ -1389,6 +1405,10 @@ autofill-payment-methods-manage-payments-title =
 autofill-payment-methods-manage-payments-button =
     .label = Behandle betalingsmåter
     .accesskey = m
+# This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-payment-methods-require-device-sign-in-checkbox =
+    .label = Krev enhetspålogging for å autofylle
+    .accesskey = K
 # This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox-2 =
     .label = Krev enhetspålogging for å automatisk fylle ut og behandle betalingsmåter
@@ -1847,6 +1867,57 @@ notifications-section-header =
 notifications-entry-card-header =
     .description = Velg hvilke nettsteder som kan sende varsler, og hvordan disse varslene vises.
     .label = Varsler
+# Variables:
+#   $count (number) - Number of websites with a stored notification decision,
+#                     always one or more. The zero case is a separate message,
+#                     notifications-entry-manage-button-empty.
+notifications-entry-manage-button =
+    .description =
+        { $count ->
+            [one] { $count } nettsted
+           *[other] { $count } nettsteder
+        }
+    .label = Behandle varslingsinnstillinger
+# Replaces notifications-entry-manage-button when no website has a stored
+# notification decision. It deliberately carries no description: the empty
+# state is stated on the Notifications page rather than on this row.
+notifications-entry-manage-button-empty =
+    .label = Behandle innstillinger for nettstedsvarsler
+notifications-website-card-header =
+    .description = Velg hvordan nettsteder kan sende varsler.
+    .label = Nettstedvarsler
+notifications-filter =
+    .placeholder = Søk nettsteder
+# Heading of the website column in the list of websites and their notification
+# state, shown when the list has rows.
+notifications-list-header =
+    .label = Nettsted
+# Heading of the state column in the list of websites and their notification
+# state, shown when the list has rows.
+notifications-list-header-state = Tillat varsler
+# Heading of the list of websites when it has no rows, because no website has a
+# stored notification decision or a search matches no website.
+notifications-list-header-empty =
+    .label = Nettsteder
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Always" is used where notifications can
+# also be delivered while Firefox is closed.
+notifications-state-always = Alltid
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Allow" is used where notifications
+# cannot be delivered while Firefox is closed.
+notifications-state-allow = Tillat
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications", for websites blocked from sending
+# notifications.
+notifications-state-never = Aldri
+# Shown as a row under the list header when no website has a stored
+# notification decision.
+notifications-empty-message =
+    .label = Ingen nettstedsvarsler er lagt til.
+# Shown as a row under the list header when a search matches no website.
+notifications-no-results-message =
+    .label = Ingen nettstedsvarsler samsvarer med søket ditt.
 
 ## Privacy Section - Data Collection
 

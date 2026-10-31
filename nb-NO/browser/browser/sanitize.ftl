@@ -54,6 +54,8 @@ clear-time-duration-value-since-midnight =
     .label = Siden { $midnightTime }
 clear-time-duration-value-today =
     .label = Hele dagen
+clear-time-duration-value-all-time =
+    .label = Alt
 clear-time-duration-value-everything =
     .label = Alt
 clear-time-duration-suffix =
@@ -63,6 +65,9 @@ clear-time-duration-suffix =
 ## to select the items to remove
 
 history-section-label = Historikk
+item-history-and-downloads2 =
+    .label = Nettleser- og nedlastingshistorikk
+    .accesskey = N
 item-history-and-downloads =
     .label = Nettleser- og nedlastingshistorikk
     .accesskey = N
