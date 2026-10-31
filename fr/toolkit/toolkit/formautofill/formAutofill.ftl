@@ -74,7 +74,7 @@ autofill-card-security-code-label = Cryptogramme visuel
 # Visa calls it "CVV".
 credit-card-security-code-name-visa = Cryptogramme visuel (CVV)
 # Mastercard calls it "CVC".
-credit-card-security-code-name-mastercard = Cryptogramme visuel
+credit-card-security-code-name-mastercard = Cryptogramme visuel (CVC)
 # American Express calls it "CID".
 credit-card-security-code-name-amex = Cryptogramme visuel (CID)
 # Used for any other card network, or when the network isn't known.
@@ -104,12 +104,12 @@ credit-card-doorhanger-card-details-name-expiration-security-code = { $name } | 
 credit-card-capture-update-payment-method-button =
     .label = Mettre à jour
     .accessKey = M
-credit-card-update-saved-payment-method-doorhanger-header = Mettre à jour un mode de paiement enregistré ?
+credit-card-update-saved-payment-method-doorhanger-header = Mettre à jour le moyen de paiement enregistré ?
 # Saves the submitted details as a new payment method instead of updating
 # the saved one.
 credit-card-capture-save-as-new-payment-method-button =
-    .label = Nouveau
-    .accessKey = N
+    .label = Enregistrer comme nouveau
+    .accessKey = E
 
 ## Used on the doorhanger when a saved card is submitted with a new or changed
 ## security code.

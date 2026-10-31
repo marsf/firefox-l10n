@@ -564,7 +564,7 @@ onboarding-refresh-primary-button = Continuer
 onboarding-refresh-fro-import-header = Importez vos données
 # "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
 # Refers to personal data, indicating that ownership of imported data remains with the user.
-onboarding-refresh-fro-import-subtitle = Il reste à vous. { -brand-product-name } ne vend jamais de données personnelles.
+onboarding-refresh-fro-import-subtitle = Elles vous appartiennent, toujours. { -brand-product-name } ne vend jamais de données personnelles.
 onboarding-refresh-fro-import-body = Vos données personnelles restent personnelles. { -brand-product-name } ne les vendra jamais.
 onboarding-refresh-fro-skip-button = Ignorer
 onboarding-refresh-fro-theme-header = Personnalisez votre style

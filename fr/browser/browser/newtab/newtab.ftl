@@ -585,7 +585,7 @@ newtab-travel-widget-open-menu-button =
 newtab-travel-menu-learn-more = En savoir plus
 # Context menu item linking to the Kayak website, the provider of the
 # travel search. “Kayak” is a brand name and should not be translated.
-newtab-travel-menu-powered-by-kayak = Propulsé par Canoë-kayak
+newtab-travel-menu-powered-by-kayak = Fonctionne grâce à Kayak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
@@ -1119,7 +1119,7 @@ newtab-wallpaper-firefox-sky-dark = Collines violet foncé sous un ciel nocturne
 newtab-wallpaper-firefox-sky-light = Collines claires sous un ciel pastel
 # “Wrexham AFC” is the name of a football club and should not be translated.
 # "crest" refers to the football club's logo (team badge).
-newtab-wallpaper-firefox-wrexham = Le blason de la Wrexham AFC sur un fond rouge
+newtab-wallpaper-firefox-wrexham = Le blason du Wrexham AFC sur fond rouge
 
 ## Firefox
 
@@ -1561,7 +1561,7 @@ newtab-crossword-widget-open-menu-button =
     .title = Ouvrir le menu des mots croisés
 # Context menu item linking to the Particle website, the provider of the
 # crossword. “Particle” is a brand name and should not be translated.
-newtab-crossword-menu-powered-by-particle = Avec l’appui de Particle
+newtab-crossword-menu-powered-by-particle = Fourni par Particle
 
 ## Strings introduced by the Nova redesign of the Timer widget
 
