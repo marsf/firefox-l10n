@@ -116,6 +116,10 @@ credit-card-save-security-code-doorhanger-header = Lagre sikkerhetskode?
 ## Used on the doorhanger when users submit a new card and security codes can be saved.
 
 credit-card-save-payment-method-doorhanger-header = Lagre denne betalingsmåten?
+# Also used on the doorhanger when a saved card is submitted with a new or
+# changed security code.
+# “Checkout” refers to the payment stage on websites.
+credit-card-save-payment-method-doorhanger-description = { -brand-short-name } krypterer og autofyller betalingsopplysningene dine, slik at du kan betale raskere.
 credit-card-capture-dismiss-button =
     .label = Ignorer
     .accessKey = I
