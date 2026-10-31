@@ -248,6 +248,9 @@ urlbar-split-view-button =
 urlbar-menuitem-paste-and-go =
     .label = 粘贴并前往
     .accesskey = G
+urlbar-menuitem-paste-and-search =
+    .label = 粘贴并搜索
+    .accesskey = S
 
 ## Searchbar context menu
 
@@ -442,6 +445,9 @@ bookmark-panel-remove =
 bookmark-panel-show-editor-checkbox =
     .label = 保存时显示编辑器
     .accesskey = S
+bookmark-panel-save-button2 =
+    .label = 保存
+    .accesskey = a
 bookmark-panel-save-button =
     .label = 保存
 # Width of the bookmark panel.
@@ -1318,6 +1324,9 @@ tabs-toolbar =
     .aria-label = 浏览器标签页
 tabs-toolbar-new-tab =
     .label = 新建标签页
+tabs-toolbar-list-all-tabs-2 =
+    .label = 搜索和管理标签页
+    .tooltiptext = 搜索和管理标签页
 tabs-toolbar-list-all-tabs =
     .label = 列出所有标签页
     .tooltiptext = 列出所有标签页
@@ -1335,6 +1344,14 @@ restore-session-startup-suggestion-button = 怎么做
 ## Infobar shown when the user tries to open a file picker and file pickers are blocked by enterprise policy
 
 filepicker-blocked-infobar = 您的组织已阻止此计算机访问本地文件
+
+## Address bar result shown when someone who used the Extensions and Themes
+## keyboard shortcut presses that shortcut after it moved to Search Tabs.
+## Variables:
+##   $searchTabsShortcut (String) - The Search Tabs keyboard shortcut, e.g. "Ctrl+Shift+A".
+##   $addonsShortcut (String) - The Extensions and Themes keyboard shortcut, e.g. "Ctrl+Shift+F".
+
+urlbar-addons-shortcut-moved-change-shortcuts = 管理快捷方式
 
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
 
@@ -1417,6 +1434,28 @@ reset-pbm-panel-complete = 本次隐私浏览数据已删除
 reset-pbm-toolbar-button2 =
     .label = 清除本次隐私浏览
     .tooltiptext = 清除本次隐私浏览
+
+## Fire button. Clears the whole browsing session, then closes every window and
+## opens a new one.
+
+fire-button-toolbar-button =
+    .label = 删除部分或所有浏览数据
+    .tooltiptext = 删除部分或所有浏览数据
+fire-button-panel-heading = 确定要删除所有浏览数据吗？
+# Opens the "Delete browsing data" dialog, where the user picks
+# which kinds of data to delete. The trailing ellipsis marks that a dialog
+# follows rather than the action happening immediately.
+fire-button-panel-choose-link = 选择…
+fire-button-panel-cancel-button =
+    .label = 取消
+    .accesskey = C
+fire-button-panel-confirm-button =
+    .label = 全部删除
+    .accesskey = D
+fire-button-panel-complete = 浏览数据已删除
+fire-button-toolbar-button2 =
+    .label = 删除部分或所有数据
+    .tooltiptext = 删除部分或所有浏览数据
 
 ## Autorefresh blocker
 

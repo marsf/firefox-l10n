@@ -11,6 +11,8 @@ confirmation-hint-password-created = 密码已保存
 confirmation-hint-password-updated = 密码已更新
 confirmation-hint-address-created = 地址已保存
 confirmation-hint-address-updated = 地址已更新
+confirmation-hint-payment-method-saved = 付款方式已保存
+confirmation-hint-payment-method-updated = 付款方式已更新
 confirmation-hint-credit-card-created = 卡片已保存
 confirmation-hint-credit-card-updated = 卡片已更新
 confirmation-hint-passport-created = 护照信息已保存
@@ -21,6 +23,7 @@ confirmation-hint-send-to-device = 发送成功！
 confirmation-hint-firefox-relay-mask-created = 马甲创建成功！
 confirmation-hint-firefox-relay-mask-reused = 已复用现有马甲！
 confirmation-hint-screenshot-copied = 截图已复制！
+confirmation-hint-tab-group-saved = 标签页群组已保存
 # Variables:
 #   $tabCount (Number): The number of duplicate tabs closed, at least 1.
 confirmation-hint-duplicate-tabs-closed = 已关闭 { $tabCount } 个标签页

@@ -219,6 +219,21 @@ link-preview-settings-key-points =
     .label = 允许 AI 读取页面开头并生成要点
 link-preview-settings-long-press =
     .label = 快捷方式：长按链接 1 秒
+# $provider (string) - name of the AI chatbot provider
+highlight-to-search-settings-ask-provider =
+    .label = 询问 { $provider }
+highlight-to-search-settings-ask-generic =
+    .label = 询问 AI
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Search" is a verb: the action searches the selected text
+# with the default search engine.
+highlight-to-search-settings-search =
+    .label = 搜索
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Copy" is a verb: the action copies the selected text to the
+# clipboard.
+highlight-to-search-settings-copy =
+    .label = 复制
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = 想用 AI 看到更多内容吗？
 # Message that appears when user is shown the opt-in flow for link previews
