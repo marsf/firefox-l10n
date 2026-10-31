@@ -142,6 +142,12 @@ permissions-site-notification-desc = Følgende nettsider har bedt om å få send
 permissions-site-notification-disable-label =
     .label = Blokkere nye forespørsler som ber om tillatelse til å sende varsel
 permissions-site-notification-disable-desc = Dette forhindrer nettsteder som ikke er oppført ovenfor, fra å be om tillatelse til å sende varsler. Blokkering av varsler kan ødelegge noen nettstedsfunksjoner.
+# Shown only where notifications can be delivered while the browser is closed.
+permissions-site-notification-closed-delivery-label =
+    .label = Tillat nettstedsvarsler når { -brand-short-name } er lukket
+# Notes that the operating system's own notification settings can still block
+# notifications delivered while the browser is closed.
+permissions-site-notification-closed-delivery-desc = Varslingsinnstillingene for operativsystemet gjelder også.
 
 ## Site Permissions - Location
 

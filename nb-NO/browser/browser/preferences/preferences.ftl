@@ -357,6 +357,8 @@ website-language-heading =
     .label = Nettstedsspråk
 website-preferred-language =
     .label = Foretrukket språk
+website-language-list =
+    .aria-label = Foretrukne språk
 website-add-language =
     .label = Legg til språk
 website-add-language-button =
@@ -813,6 +815,8 @@ home-homepage-custom-homepage-button =
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-card-header =
     .label = Nettadresse(r)
+home-custom-homepage-list =
+    .aria-label = Nettstedsadresser
 home-custom-homepage-address =
     .placeholder = Skriv inn adresse
 home-custom-homepage-address-button =

@@ -819,6 +819,7 @@ newtab-discovery-empty-section-topstories-try-again-button = Prøv igjen
 newtab-discovery-empty-section-topstories-loading = Laster…
 # Headline and body shown when stories fail to load, for example when offline or the server can’t be reached.
 newtab-discovery-empty-section-topstories-unavailable-header = Artikler er ikke tilgjengelige akkurat nå
+newtab-discovery-empty-section-topstories-unavailable-body = Sjekk tilkoblingen din, eller prøv på nytt senere.
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Ops! Vi lastet nesten denne delen, men ikke helt.
 
@@ -1116,6 +1117,9 @@ newtab-wallpaper-firefox-peak-dark = Et reveansikt i venstre kant, mot en mørk 
 newtab-wallpaper-firefox-peak-light = Et reveansikt i venstre kant, mot en lys bakgrunn
 newtab-wallpaper-firefox-sky-dark = Mørkelilla åser under en nattehimmel
 newtab-wallpaper-firefox-sky-light = Lyse åser under en myk himmel
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = Wrexham AFC-våpenskjoldet på rød bakgrunn
 
 ## Firefox
 
@@ -1555,6 +1559,9 @@ newtab-promo-card-dismiss-button =
 newtab-crossword-widget-open-menu-button =
     .aria-label = Åpne kryssord-menyen
     .title = Åpne kryssord-menyen
+# Context menu item linking to the Particle website, the provider of the
+# crossword. “Particle” is a brand name and should not be translated.
+newtab-crossword-menu-powered-by-particle = Drevet av Particle
 
 ## Strings introduced by the Nova redesign of the Timer widget
 

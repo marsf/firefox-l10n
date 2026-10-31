@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Egueru ambue kundahára
 about-logins-menu-menuitem-import-from-a-file = Marandurendágui jegueru…
 about-logins-menu-menuitem-export-logins2 = Ñe’ẽñemi guerahauka…
 about-logins-menu-menuitem-remove-all-logins2 = Emboguepaite ñe’ẽñeminguéra…
+about-logins-menu-menuitem-delete-all-logins = Emboguepaite ñe’ẽñemieta…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Jeporavorã
@@ -89,6 +90,7 @@ about-logins-intro-import3 = Eiporavo votõ ñesumaha oĩva yvate embojuaju hag�
 about-logins-login-item-new-login-title = Embojuaju ñe’ẽñemi
 login-item-edit-button = Mbosako’i
 about-logins-login-item-remove-button = Mboguete
+about-logins-login-item-delete-button = Mboguete
 login-item-origin-label = Ñanduti kundaharape
 about-logins-origin-tooltip2 = Ehai kundaharape ha emoĩmbaporãke oĩhaichaite emoñerũkuévo tembiapo.
 # Variables
@@ -174,9 +176,13 @@ confirmation-dialog-dismiss-button =
     .title = Heja
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = ¿Eipe’a ñe’ẽñemi?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = ¿ Embogue ñe’ẽñemi?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Ndaikatúi embojevy ko mba’e.
 about-logins-confirm-remove-dialog-confirm-button = Mboguete
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Mboguete
 
 ## Variables
 ##   $count (number) - Number of items
@@ -187,12 +193,26 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [one] Mboguepaite
        *[other] Mboguepaite
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Mboguete
+        [one] Emboguepaite
+       *[other] Emboguepaite
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
         [1] Héẽ, emboguete ñe’ẽñemi
         [one] Héẽ, emboguete ñe’ẽñemi
        *[other] Héẽ, emboguete ñe’ẽñeminguéra
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] Héẽ, embogue ñe’ẽñemi
+        [one] Héẽ, embogue ñe’ẽñemi
+       *[other] Héẽ, embogue ñe’ẽñemieta
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
@@ -212,6 +232,12 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
     { $count ->
         [one] ¿Emboguete ñe’ẽñemi { $count } opaite mba’e’okágui?
        *[other] ¿Emboguete ñe’ẽñemi { $count } opaite mba’e’okágui?
+    }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] Embogue { $count } ñe’ẽñemi?
+       *[other] Embogue { $count } ñe’ẽñemieta?
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =

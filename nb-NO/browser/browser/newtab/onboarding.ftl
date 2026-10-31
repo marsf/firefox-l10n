@@ -634,4 +634,6 @@ welcome-back-onboarding-pill-label-tabs = Rydd opp faner
 welcome-back-onboarding-pill-label-vpn = Innebygd VPN
 welcome-back-onboarding-pill-label-pdf = PDF-verktøy
 welcome-back-onboarding-card-label-tabs = Rydd opp med vertikale faner og grupper
+welcome-back-onboarding-card-label-vpn = Hold deg skjult med innebygd VPN
+welcome-back-onboarding-card-label-pdf = Marker, signer og arbeid med PDF-filer
 welcome-back-onboarding-card-tilebutton-label = Prøv det
