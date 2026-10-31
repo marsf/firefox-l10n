@@ -93,6 +93,7 @@ about-logins-intro-import3 = Wubjerće plusowe znamješko horjeka, zo byšće n�
 about-logins-login-item-new-login-title = Hesło přidać
 login-item-edit-button = Wobdźěłać
 about-logins-login-item-remove-button = Wotstronić
+about-logins-login-item-delete-button = Zhašeć
 login-item-origin-label = Adresa websydła
 about-logins-origin-tooltip2 = Zapodajće dospołnu adresu a zawěsćće, zo je eksaktny wotpowědnik za město, hdźež so přizjewjeće.
 # Variables
@@ -178,9 +179,13 @@ confirmation-dialog-dismiss-button =
     .title = Přetorhnyć
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Hesło wotstronić?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Hesło zhašeć?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Njemóžeće tutu akciju cofnyć.
 about-logins-confirm-remove-dialog-confirm-button = Wotstronić
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Zhašeć
 
 ## Variables
 ##   $count (number) - Number of items
@@ -192,6 +197,15 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [two] Wšě wotstronić
         [few] Wšě wotstronić
        *[other] Wšě wotstronić
+    }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Zhašeć
+        [one] Wšě zhašeć
+        [two] Wšě zhašeć
+        [few] Wšě zhašeć
+       *[other] Wšě zhašeć
     }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
@@ -226,6 +240,14 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [two] { $count } hesle ze wšěch gratow wotstronić?
         [few] { $count } hesła ze wšěch gratow wotstronić?
        *[other] { $count } hesłow ze wšěch gratow wotstronić?
+    }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] { $count } hesło zhašeć?
+        [two] { $count } hesle zhašeć?
+        [few] { $count } hesła zhašeć?
+       *[other] { $count } hesłow zhašeć?
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =

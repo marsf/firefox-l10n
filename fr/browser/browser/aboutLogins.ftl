@@ -181,7 +181,7 @@ about-logins-confirm-delete-dialog-title2 = Supprimer le mot de passe ?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Cette action ne peut être annulée.
 # Message for modal to confirm the deletion of one saved password when per-device sync is enabled
-about-logins-confirm-delete-dialog-message2 = Ceci le supprime de { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
+about-logins-confirm-delete-dialog-message2 = Ce mot de passe sera supprimé de { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
 about-logins-confirm-remove-dialog-confirm-button = Supprimer
 # Confirm button for the modal to delete one saved password when per-device sync is enabled
 about-logins-confirm-delete-dialog-confirm-button = Supprimer
@@ -198,7 +198,6 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
 about-logins-confirm-delete-all-dialog-confirm-button-label =
     { $count ->
         [1] Supprimer
-        [one] Tout supprimer
        *[other] Tout supprimer
     }
 # Checkbox for modal to confirm the removal of saved passwords
@@ -212,8 +211,7 @@ about-logins-confirm-remove-all-dialog-checkbox-label2 =
 about-logins-confirm-delete-all-dialog-checkbox-label =
     { $count ->
         [1] Oui, supprimer le mot de passe
-        [one] Oui, supprimer des mots de passe
-       *[other] Oui, supprimer des mots de passe
+       *[other] Oui, supprimer les mots de passe
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
@@ -237,7 +235,7 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
 # Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
 about-logins-confirm-delete-all-sync-dialog-title =
     { $count ->
-        [one] Supprimer le mot de passe { $count } ?
+        [one] Supprimer { $count } mot de passe ?
        *[other] Supprimer { $count } mots de passe ?
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
@@ -250,9 +248,8 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
 # Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
 about-logins-confirm-delete-all-sync-dialog-message =
     { $count ->
-        [1] Ceci le supprime de { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
-        [one] Ces identifiants sont supprimés pour les identifiants { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
-       *[other] Ces identifiants sont supprimés pour les identifiants { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
+        [1] Ce mot de passe sera supprimé de { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
+       *[other] Ces mots de passe seront supprimés de { -brand-short-name } sur tous les appareils qui synchronisent vos mots de passe. Cette action est irréversible.
     }
 
 ##
