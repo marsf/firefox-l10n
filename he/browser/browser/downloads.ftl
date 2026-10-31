@@ -341,7 +341,7 @@ downloads-unblock-content-analysis-tip = באפשרותך להמשיך בהור�
 downloads-unblock-button-open =
     .label = פתיחה
 downloads-unblock-button-unblock =
-    .label = אפשר הורדה
+    .label = לאפשר את ההורדה
 downloads-unblock-button-confirm-block =
     .label = הסרת קובץ
 

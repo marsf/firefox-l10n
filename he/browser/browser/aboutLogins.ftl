@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = ייבוא מדפדפן
 about-logins-menu-menuitem-import-from-a-file = ייבוא מקובץ…
 about-logins-menu-menuitem-export-logins2 = ייצוא ססמאות…
 about-logins-menu-menuitem-remove-all-logins2 = הסרת כל הססמאות…
+about-logins-menu-menuitem-delete-all-logins = מחיקת כל הססמאות…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] אפשרויות
@@ -89,6 +90,7 @@ about-logins-intro-import3 = יש ללחוץ על כפתור סמל הפלוס �
 about-logins-login-item-new-login-title = הוספת ססמה
 login-item-edit-button = עריכה
 about-logins-login-item-remove-button = הסרה
+about-logins-login-item-delete-button = מחיקה
 login-item-origin-label = כתובת אתר
 about-logins-origin-tooltip2 = יש להכניס את הכתובת המלאה ולוודא שהיא תואמת בדיוק לאתר שבו מתחברים לחשבון.
 # Variables
@@ -174,9 +176,15 @@ confirmation-dialog-dismiss-button =
     .title = ביטול
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = להסיר ססמה?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = למחוק את הססמה?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = אין באפשרותך לבטל פעולה זו.
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = פעולה זו תמחק אותה מ־{ -brand-short-name } בכל מכשיר שמסתנכרן עם הססמאות שלך. לא ניתן לבטל פעולה זו.
 about-logins-confirm-remove-dialog-confirm-button = הסרה
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = מחיקה
 
 ## Variables
 ##   $count (number) - Number of items
@@ -187,11 +195,23 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [one] הסרה
        *[other] הסרת הכל
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] מחיקה
+       *[other] מחיקת הכל
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
         [1] כן, להסיר את הססמה
        *[other] כן, להסיר את הססמאות
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] כן, למחוק את הססמה
+       *[other] כן, למחוק את הססמאות
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
@@ -211,11 +231,23 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [one] להסיר ססמה אחת מכל המכשירים?
        *[other] Remove all { $count } passwords from all devices?
     }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] למחוק את הססמה?
+       *[other] למחוק את { $count } הססמאות?
+    }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
     { $count ->
         [1] פעולה זו תסיר את הססמה שנשמרה ב־{ -brand-short-name } בכל המכשירים המסונכרים שלך, לרבות כל ההתרעות על דליפות נתונים מאתרים שמופיעות כאן. לא ניתן לבטל פעולה זו.
        *[other] פעולה זו תסיר את כל הססמאות שנשמרו ב־{ -brand-short-name } בכל המכשירים המסונכרים שלך, לרבות כל ההתרעות על דליפות נתונים מאתרים שמופיעות כאן. לא ניתן לבטל פעולה זו.
+    }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] פעולה זו תמחק אותה מ־{ -brand-short-name } בכל מכשיר שמסתנכרן עם הססמאות שלך. לא ניתן לבטל פעולה זו.
+       *[other] פעולה זו תמחק אותן מ־{ -brand-short-name } בכל מכשיר שמסתנכרן עם הססמאות שלך. לא ניתן לבטל פעולה זו.
     }
 
 ##

@@ -72,6 +72,7 @@ genai-more-actions-copy =
 genai-more-actions-all-off-notice = תפריט זה לא יוצג בעת בחירת טקסט. יש לעבור להגדרות <span data-l10n-name="chevron"></span> לשוניות וגלישה כדי להציג אותו שוב.
 genai-more-actions-manage-settings =
     .label = ניהול הגדרות
+genai-selection-callout-title = יש לסמן טקסט כדי לבחור בפעולה
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = לשאול את { $provider }
