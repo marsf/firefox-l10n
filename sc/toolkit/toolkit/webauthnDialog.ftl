@@ -68,3 +68,5 @@ webauthn-allow = Permite
     .accesskey = A
 webauthn-block = Bloca
     .accesskey = B
+webauthn-continue = Sighi
+    .accesskey = S

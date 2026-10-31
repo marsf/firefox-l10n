@@ -3,3 +3,6 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
 perm-persistent-storage-remember = Regorda custa detzisione
+speech-recognition-model-download-allow =
+    .label = Sighi
+    .accesskey = S

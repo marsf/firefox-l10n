@@ -509,6 +509,7 @@ onboarding-refresh-gratitude-title = { -brand-short-name } est acanta a te
 
 ## First Run Onboarding refresh strings
 
+onboarding-refresh-primary-button = Sighi
 # "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
 # Refers to personal data, indicating that ownership of imported data remains with the user.
 onboarding-refresh-fro-import-subtitle = Abarrant tuos. { -brand-product-name } non bendet mai is datos personales.
