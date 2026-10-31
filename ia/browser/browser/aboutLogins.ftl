@@ -89,6 +89,7 @@ about-logins-intro-import3 = Elige le button del signo plus supra pro adder un c
 about-logins-login-item-new-login-title = Adder contrasigno
 login-item-edit-button = Modificar
 about-logins-login-item-remove-button = Remover
+about-logins-login-item-delete-button = Deler
 login-item-origin-label = Adresse web
 about-logins-origin-tooltip2 = Insere le adresse complete e cura que illo corresponde exactemente a illo de tu accesso.
 # Variables
