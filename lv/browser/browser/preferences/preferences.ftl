@@ -318,6 +318,8 @@ website-language-heading =
     .label = Tīmekļvietnes valoda
 website-preferred-language =
     .label = Vēlamās valodas
+website-language-list =
+    .aria-label = Vēlamās valodas
 website-add-language =
     .label = Pievienot valodu
 website-add-language-button =
@@ -611,6 +613,8 @@ home-homepage-new-windows =
     .label = Jauni logi
 home-homepage-new-tabs =
     .label = Jaunas cilnes
+home-custom-homepage-list =
+    .aria-label = Tīmekļvietņu adreses
 home-custom-homepage-address-button =
     .label = Pievienot adresi
 home-custom-homepage-header = Pielāgota sākumlapa
@@ -707,6 +711,8 @@ search-one-click-desc = Izvēlies papildu meklētāju, kas parādīsies adreses 
 search-one-click-header-3 =
     .description = Izvēlies, kuri meklētāji un saīsnes ir redzami adreses joslā.
     .label = Papildu meklētāji
+search-engine-list =
+    .aria-label = Meklētāji un īsinājumtaustiņi
 update-search-engine-success =
     .message = Meklētājs sekmīgi atjaunināts
 search-choose-engine-column =
@@ -749,6 +755,8 @@ search-section =
 containers-add-button2 =
     .label = Pievienot jaunu konteineru
     .accesskey = a
+containers-list =
+    .aria-label = Konteineri
 # Checkbox in the Containers settings. By default, when a link is opened from
 # another application, Firefox tries to pick a matching container for it. When
 # this checkbox is checked, such links always open outside of any container.
@@ -1028,9 +1036,35 @@ autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy section - Autofill
 
+# This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-payment-methods-require-device-sign-in-checkbox =
+    .label = Pieprasīt pieteikšanos ierīcē, lai automātiski aizpildītu
+    .accesskey = l
 autofill-payment-methods-add-button = Pievienot jaunu maksājumu veidu
 autofill-addresses-add-button = Pievienot jaunu adresi
 autofill-passports-add-button = Pievienot jaunu pasi
+# Used in place of payment-moz-box-item when a security code is saved alongside
+# the card. Only the presence of a saved security code is ever shown, never the
+# code itself: "•••" stands for the hidden code, so keep it as is rather than
+# translating it into words.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
+#   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
+#   $securityCode (string) - The name of the card's security code, which depends
+#     on the card network (for example: CVV)
+payment-moz-box-item-with-security-code-2 =
+    .description = { $expDate } | { $securityCode } •••
+    .label = { $cardNumber }
+# Used in place of payment-moz-box-item-with-security-code-2 for a card that has
+# a saved security code but no expiry date to show alongside it. "•••" stands for
+# the hidden code.
+# Variables:
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
+#   $securityCode (string) - The name of the card's security code, which depends
+#     on the card network (for example: CVV)
+payment-moz-box-item-security-code-only-2 =
+    .description = { $securityCode } •••
+    .label = { $cardNumber }
 
 ## Privacy Section - History
 

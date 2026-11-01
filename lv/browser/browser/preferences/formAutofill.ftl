@@ -118,6 +118,12 @@ autofill-card-name-on-card-2 =
     .label = Kartes īpašnieks
 autofill-card-billing-address-2 =
     .label = Rēķina adrese
+# Variables:
+#   $securityCode (String): The name of the card's security code, which depends
+#     on the card network (for example "CVV", or "Security code" when the
+#     network isn't known yet)
+autofill-card-security-code-optional-2 =
+    .label = { $securityCode } (izvēles)
 # "CVV" is a common abbreviation for the security code printed on a payment
 # card. Use whichever abbreviation is most familiar in your locale.
 autofill-card-security-code-optional =

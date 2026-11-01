@@ -50,6 +50,8 @@ clear-time-duration-value-last-4-hours =
     .label = pēdējās 4 stundas
 clear-time-duration-value-today =
     .label = šīs dienas pārlūkošanas vēsturi
+clear-time-duration-value-all-time =
+    .label = Viss laiks
 clear-time-duration-value-everything =
     .label = visu pārlūkošanas vēsturi
 clear-time-duration-suffix =
@@ -59,6 +61,11 @@ clear-time-duration-suffix =
 ## to select the items to remove
 
 history-section-label = Vēsture
+item-history-and-downloads2 =
+    .label = Pārlūkošanas un lejupielāžu vēsture
+    .accesskey = P
+# Description for the "Browsing and downloads history" item, which can be selected for deletion
+item-history-and-downloads-description3 = Apmeklētās vietnes un lejupielāžu saraksts
 item-history-and-downloads =
     .label = Pārlūkošanas un lejupielāžu vēsture
     .accesskey = r

@@ -583,9 +583,6 @@ newtab-travel-widget-open-menu-button =
     .title = Öppna menyn för resor
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = Läs mer
-# Context menu item linking to the Kayak website, the provider of the
-# travel search. “Kayak” is a brand name and should not be translated.
-newtab-travel-menu-powered-by-kayak = Drivs med kajak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.

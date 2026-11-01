@@ -109,7 +109,7 @@ credit-card-update-saved-payment-method-doorhanger-header = Uppdatera sparad bet
 # the saved one.
 credit-card-capture-save-as-new-payment-method-button =
     .label = Spara som ny
-    .accessKey = S
+    .accessKey = n
 
 ## Used on the doorhanger when a saved card is submitted with a new or changed
 ## security code.

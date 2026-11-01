@@ -374,6 +374,7 @@ onboarding-refresh-fro-import-body = Tavi personīgie dati paliek personīgi. { 
 onboarding-refresh-fro-skip-button = Izlaist
 onboarding-refresh-fro-theme-header = Spēlējies ar izskatu
 onboarding-refresh-tab-layout-header = Izmēģini citu ciļņu izkārtojumu
+onboarding-refresh-fro-tab-layout-title = Izvēlies jaunu ciļņu izkārtojumu
 onboarding-refresh-tab-layout-top = Augšpusē
 onboarding-refresh-tab-layout-side = Sānā
 onboarding-refresh-tab-layout-minimal = Ļoti mazs

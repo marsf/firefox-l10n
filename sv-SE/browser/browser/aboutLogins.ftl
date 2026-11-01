@@ -181,7 +181,7 @@ about-logins-confirm-delete-dialog-title2 = Ta bort lösenord?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Du kan inte ångra den här åtgärden.
 # Message for modal to confirm the deletion of one saved password when per-device sync is enabled
-about-logins-confirm-delete-dialog-message2 = Detta tar bort den från { -brand-short-name } på varje enhet som synkroniserar dina lösenord. Du kan inte ångra detta.
+about-logins-confirm-delete-dialog-message2 = Detta tar bort lösenordet från { -brand-short-name } på alla enheter som synkroniserar dina lösenord. Det går inte att ångra.
 about-logins-confirm-remove-dialog-confirm-button = Ta bort
 # Confirm button for the modal to delete one saved password when per-device sync is enabled
 about-logins-confirm-delete-dialog-confirm-button = Ta bort
@@ -199,7 +199,6 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
 about-logins-confirm-delete-all-dialog-confirm-button-label =
     { $count ->
         [1] Ta bort
-        [one] Ta bort alla
        *[other] Ta bort alla
     }
 # Checkbox for modal to confirm the removal of saved passwords
@@ -212,7 +211,6 @@ about-logins-confirm-remove-all-dialog-checkbox-label2 =
 about-logins-confirm-delete-all-dialog-checkbox-label =
     { $count ->
         [1] Ja, ta bort lösenord
-        [one] Ja, ta bort lösenord
        *[other] Ja, ta bort lösenord
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
@@ -248,9 +246,8 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
 # Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
 about-logins-confirm-delete-all-sync-dialog-message =
     { $count ->
-        [1] Detta tar bort den från { -brand-short-name } på varje enhet som synkroniserar dina lösenord. Du kan inte ångra detta.
-        [one] Detta tar bort dem från { -brand-short-name } på varje enhet som synkroniserar dina lösenord. Du kan inte ångra detta.
-       *[other] Detta tar bort dem från { -brand-short-name } på varje enhet som synkroniserar dina lösenord. Du kan inte ångra detta.
+        [1] Detta tar bort det från { -brand-short-name } på alla enheter som synkroniserar dina lösenord. Detta går inte att ångra.
+       *[other] Detta tar bort dem från { -brand-short-name } på alla enheter som synkroniserar dina lösenord. Detta går inte att ångra.
     }
 
 ##

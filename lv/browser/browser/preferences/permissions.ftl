@@ -132,6 +132,12 @@ permissions-site-notification-desc = Šīs tīmekļvietnes ir pieprasījušas s�
 permissions-site-notification-disable-label =
     .label = Liegt jaunus pieprasījumus, kuros tiek lūgts atļaut paziņojumu sūtīšanu
 permissions-site-notification-disable-desc = Tas liegs jebkurām lapām, kas nav uzskaitītas zemāk, iesniedzēju lūgt paziņojumu sūtīšanas atļauju. Paziņojumu bloķēšana var kaitēt daļai no konkrētās lapas lapas funkcionalitātes.
+# Shown only where notifications can be delivered while the browser is closed.
+permissions-site-notification-closed-delivery-label =
+    .label = Atļaut tīmekļvietņu paziņojumus, kad { -brand-short-name } ir aizvērts
+# Notes that the operating system's own notification settings can still block
+# notifications delivered while the browser is closed.
+permissions-site-notification-closed-delivery-desc = Uz šo attiecas arī sistēmas paziņojumu iestatījumi.
 
 ## Site Permissions - Location
 
