@@ -1482,6 +1482,7 @@ unified-extensions-button-blocklisted =
 ## Private browsing reset button
 
 reset-pbm-panel-heading2 = Daty zhašeć a nowe priwatne posedźenje započeć?
+reset-pbm-panel-description3 = To wašu historiju a waše placki zhaša, a wotzjewi was wot sydłow. Waše priwatne wokna so začinja a nowe wokno so wočini.
 reset-pbm-panel-description2 = To historiju, placki a wšě waše druhe sydłowe daty zhaša, bjeztoho zo by so priwatne wokno začiniło.
 reset-pbm-panel-always-ask-checkbox =
     .label = Přeco so prašeć

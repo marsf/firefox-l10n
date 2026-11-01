@@ -1414,6 +1414,10 @@ autofill-payment-methods-manage-payments-button =
     .label = Płaćenske metody rjadować
     .accesskey = m
 # This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-payment-methods-require-device-sign-in-checkbox =
+    .label = Gratowe přizjewjenje za awtomatiske wupjelnjenje žadać
+    .accesskey = t
+# This operation requires the user to authenticate with the operating system (device sign-in)
 autofill-reauth-payment-methods-checkbox-2 =
     .label = Gratowe přizjewjenje za awtomatiske wupjelnjenje a rjadowanje płaćenskich metodow požadać
     .accesskey = G

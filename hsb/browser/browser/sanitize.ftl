@@ -86,6 +86,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = Placki a sydłowe daty
     .accesskey = l
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = Wotzjewi was a wuprózdni snano nakupowanske wozyki
 item-cookies-site-data-description = Wotzjewja was snano wot sydłow abo prózdnych nakupowanskich wozykow
 item-active-logins =
     .label = Aktiwne přizjewjenja
@@ -102,6 +104,8 @@ item-cached-content-with-size2 =
 item-cached-content2 =
     .label = Temporerne dataje
     .accesskey = d
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = Pomha, sydła spěšnišo začitać
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"

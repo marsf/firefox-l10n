@@ -91,8 +91,14 @@ genai-more-actions-search =
     .label = Pytać
 genai-more-actions-copy =
     .label = Kopěrować
+# The span is a right-pointing chevron that separates the steps of the path to
+# the setting, in place of a ">" character.
+genai-more-actions-all-off-notice = Njebudźeće tutón meni widźeć, hdyž tekst wuběraće. Přeńdźće k Nastajenja <span data-l10n-name="chevron"></span> Rajtarki a přehladowanje, zo byšće jón zaso pokazał.
 genai-more-actions-manage-settings =
     .label = Nastajenja rjadować
+genai-selection-callout-title = Wuzběhńće tekst, zo byšće akciju wubrał
+# "Search" and "Copy" are verbs.
+genai-selection-callout-text = Pytajće abo kopěrujće, hdyž tekst wuběraće. Wubjerće, kotre akcije maja so w meniju <span data-l10n-name="more-actions">•••</span> zjewić.
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = { $provider } so prašeć

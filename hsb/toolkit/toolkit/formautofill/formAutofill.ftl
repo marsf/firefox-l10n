@@ -119,6 +119,10 @@ credit-card-save-security-code-doorhanger-header = Wěstotny kod składować?
 ## Used on the doorhanger when users submit a new card and security codes can be saved.
 
 credit-card-save-payment-method-doorhanger-header = Tutu płaćensku metodu składować?
+# Also used on the doorhanger when a saved card is submitted with a new or
+# changed security code.
+# “Checkout” refers to the payment stage on websites.
+credit-card-save-payment-method-doorhanger-description = { -brand-short-name } waše płaćenske podrobnosće zaklučuje a wupjelnjuje je awtomatisce za spěšnišu kup.
 credit-card-capture-dismiss-button =
     .label = Zaćisnyć
     .accessKey = Z
