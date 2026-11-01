@@ -181,7 +181,7 @@ about-logins-confirm-delete-dialog-title2 = Slette passord?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Du kan ikke angre denne handlingen.
 # Message for modal to confirm the deletion of one saved password when per-device sync is enabled
-about-logins-confirm-delete-dialog-message2 = Dette sletter den fra { -brand-short-name } på alle enheter som synkroniserer passordene dine. Du kan ikke angre dette.
+about-logins-confirm-delete-dialog-message2 = Dette sletter det fra { -brand-short-name } på alle enheter som synkroniserer passordene dine. Du kan ikke angre dette.
 about-logins-confirm-remove-dialog-confirm-button = Fjern
 # Confirm button for the modal to delete one saved password when per-device sync is enabled
 about-logins-confirm-delete-dialog-confirm-button = Slett
