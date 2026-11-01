@@ -138,7 +138,7 @@ sidebar-pins-callout-cta-button = Закачане на раздела
 
 sidebar-customization-callout-1-title = Странична лента: вашето място за инструменти и раздели
 sidebar-customization-callout-1-subtitle = Страничната лента на { -brand-product-name } ви дава бърз достъп до историята на сърфирането, раздели от други устройства и чатбот с ИИ — всичко това без да напускате основния ви изглед.
-sidebar-customization-callout-callout-button = Приспособяване на страничната лента
+sidebar-customization-callout-callout-button = Персонализиране на страничната лента
 sidebar-customization-callout-dismiss-button = Скриване на страничната лента
 sidebar-customization-callout-2-title = Направете страничната лента на { -brand-product-name } по ваш вкус
 sidebar-customization-callout-2-subtitle = Добавяне и премахване на инструменти. Поставете разделите в страничната лента. Опитайте чат бот с ИИ. Как да персонализирате страничната си лента, зависи от вас.

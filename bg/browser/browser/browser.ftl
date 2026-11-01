@@ -980,7 +980,7 @@ toolbar-settings-button =
            *[other] Отваряне на настройките
         }
 toolbar-overflow-customize-button =
-    .label = Приспособяване на лентата…
+    .label = Персонализиране на лентата с инструменти…
     .accesskey = П
 toolbar-button-email-link =
     .label = Препратка по имейл
