@@ -80,6 +80,20 @@ genai-shortcut-copy-confirmation = Көшірілді
 genai-shortcut-more-actions-button =
     .aria-label = Көбірек опциялар
     .tooltiptext = Көбірек опциялар
+# $provider (string) - name of the chatbot provider
+genai-more-actions-ai-provider =
+    .label = { $provider } сұрау
+genai-more-actions-ai-generic =
+    .label = ЖИ сұрау
+genai-more-actions-search =
+    .label = Іздеу
+genai-more-actions-copy =
+    .label = Көшіріп алу
+genai-more-actions-manage-settings =
+    .label = Баптауларды басқару
+genai-selection-callout-title = Әрекетті таңдау үшін мәтінді белгілеңіз
+# "Search" and "Copy" are verbs.
+genai-selection-callout-text = Мәтінді таңдаған кезде іздеу немесе көшіру. <span data-l10n-name="more-actions">•••</span> мәзірі арқылы қандай әрекеттердің көрсетілетінін таңдаңыз.
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = { $provider } сұрау
@@ -251,6 +265,11 @@ highlight-to-search-settings-ask-generic =
 # with the default search engine.
 highlight-to-search-settings-search =
     .label = Іздеу
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Copy" is a verb: the action copies the selected text to the
+# clipboard.
+highlight-to-search-settings-copy =
+    .label = Көшіру
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = ЖИ көмегімен көбірек көру керек пе?
 # Message that appears when user is shown the opt-in flow for link previews

@@ -1496,6 +1496,9 @@ fire-button-panel-confirm-button =
     .label = Барлығын өшіру
     .accesskey = ш
 fire-button-panel-complete = Шолу деректері өшірілді
+fire-button-toolbar-button2 =
+    .label = Кейбір немесе барлық деректерді өшіру
+    .tooltiptext = Браузер деректеріңіздің бір бөлігін немесе барлығын өшіру
 
 ## Autorefresh blocker
 
