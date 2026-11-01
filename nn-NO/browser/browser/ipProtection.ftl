@@ -368,7 +368,7 @@ ip-protection-edit-site-rule-dialog =
 # "ex:" is short for "example".
 ip-protection-site-rule-website-field =
     .label = Nettstad
-    .placeholder = Døme: acme.com
+    .placeholder = døme: acme.com
 # VPN status refers to a state of 'always on' or 'always off' applied to a site
 ip-protection-site-rule-status-field =
     .label = VPN-status
