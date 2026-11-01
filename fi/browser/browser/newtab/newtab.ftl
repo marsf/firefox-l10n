@@ -815,6 +815,7 @@ newtab-discovery-empty-section-topstories-header = Olet ajan tasalla!
 newtab-discovery-empty-section-topstories-content = Katso myöhemmin lisää juttuja.
 newtab-discovery-empty-section-topstories-try-again-button = Yritä uudelleen
 newtab-discovery-empty-section-topstories-loading = Ladataan…
+newtab-discovery-empty-section-topstories-unavailable-body = Tarkista verkkoyhteytesi tai yritä myöhemmin uudelleen.
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Hups! Tämä osio ladattiin melkein, mutta ei ihan.
 
@@ -1128,6 +1129,14 @@ newtab-weather-menu-change-location = Vaihda sijaintia
 newtab-weather-change-location-search-input-placeholder =
     .aria-label = Hae sijaintia
     .placeholder = Hae sijaintia
+# "Back" is an icon-only button next to the location search field that returns to the widget.
+newtab-weather-search-back-button =
+    .aria-label = Takaisin
+    .title = Takaisin
+# Screen reader label for the dropdown below the location search field that
+# lists matching locations as the user types.
+newtab-weather-location-search-results =
+    .aria-label = Sijaintiehdotukset
 newtab-weather-cancel-input =
     .aria-label = Peruuta
     .title = Peruuta
@@ -1842,6 +1851,10 @@ newtab-clock-widget-menu-edit = Muokkaa kelloja
 newtab-clock-widget-menu-switch-to-12h = Vaihda 12 tunnin muotoon
 newtab-clock-widget-menu-switch-to-24h = Vaihda 24 tunnin muotoon
 newtab-clock-widget-label-your-clocks = Kellosi
+# "Back" is an icon-only button next to the city search field form that returns to the list of clocks.
+newtab-clock-widget-search-back-button =
+    .aria-label = Takaisin
+    .title = Takaisin
 newtab-clock-widget-search-location-input2 =
     .aria-label = Hae kaupunkia
     .placeholder = Hae kaupunkia

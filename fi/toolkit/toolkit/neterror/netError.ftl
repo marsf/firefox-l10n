@@ -106,6 +106,19 @@ neterror-dns-not-found-offline-hint-different-device = Kokeile yhteyden muodosta
 neterror-dns-not-found-offline-hint-modem = Tarkista käyttämäsi modeemi tai reititin.
 neterror-dns-not-found-offline-hint-reconnect = Katkaise Wi-Fi-yhteys ja muodosta se uudelleen.
 
+## Hints shown, as one list of steps, when a connection to this computer
+## (localhost) is refused.
+## Variables:
+##   $port (String) - The port number the connection was refused on.
+
+neterror-loopback-refused-not-running = Mikään ei hyväksy yhteyksiä portissa { $port }. Tarkista, että paikallinen palvelimesi on käynnissä.
+# "it" is the local server that the user is trying to reach.
+neterror-loopback-refused-wrong-port = Jos se on käynnissä, varmista, että se käyttää porttia { $port }.
+# "this address" is the IP address of the page that failed to load, for example
+# 127.0.0.1 or [::1]. Do not translate or reformat the literal addresses [::1]
+# and 127.0.0.1 in the text.
+neterror-loopback-refused-address = Varmista, että palvelin hyväksyy yhteyksiä tässä osoitteessa. Jotkin palvelimet kuuntelevat vain osoitteessa [::1] tai 127.0.0.1.
+
 ## TRR-only specific messages
 ## Variables:
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.

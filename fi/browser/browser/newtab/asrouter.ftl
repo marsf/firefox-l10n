@@ -526,3 +526,17 @@ refresh-profile-infobar-button = Palauta { -brand-short-name } uudenveroiseksi�
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
 restore-session-startup-suggestion-message = <strong>Haluatko avata aiemmat välilehdet?</strong> Voit palauttaa aiemman istunnon { -brand-short-name }in sovellusvalikosta <img data-l10n-name="icon"/> kohdasta Sivuhistoria.
 restore-session-startup-suggestion-button = Näytä ohje
+
+## Taskbar Tabs Spotlight
+##
+## A dialog that suggests websites to add to the Windows taskbar. Each website
+## is shown in a row with its name, web address and an “Add” button.
+
+taskbar-tabs-spotlight-title = Avaa suosikkisivustosi sovellusten tapaan
+taskbar-tabs-spotlight-subtitle = Avaa suosikkisivustosi yhdellä napsautuksella pelkistettyyn ikkunaan, jossa on käytössä kaikki { -brand-short-name }in suojaukset.
+# Heading above the list of suggested websites.
+taskbar-tabs-spotlight-sites-heading = Valitse tehtäväpalkkiin lisättävät
+# Button shown in each row of the list of websites. Clicking it adds the
+# website in that row to the Windows taskbar.
+taskbar-tabs-spotlight-add-button = Lisää
+taskbar-tabs-spotlight-done-button = Valmis
