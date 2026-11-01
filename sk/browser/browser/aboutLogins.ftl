@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Importovať z iného pr
 about-logins-menu-menuitem-import-from-a-file = Importovať zo súboru…
 about-logins-menu-menuitem-export-logins2 = Exportovať heslá…
 about-logins-menu-menuitem-remove-all-logins2 = Odstrániť všetky heslá…
+about-logins-menu-menuitem-delete-all-logins = Odstrániť všetky heslá…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Možnosti
@@ -93,6 +94,7 @@ about-logins-intro-import3 = Ak chcete pridať heslo, použite tlačidlo plus vy
 about-logins-login-item-new-login-title = Pridanie hesla
 login-item-edit-button = Upraviť
 about-logins-login-item-remove-button = Odstrániť
+about-logins-login-item-delete-button = Odstrániť
 login-item-origin-label = Adresa webovej stránky
 about-logins-origin-tooltip2 = Zadajte úplnú adresu a uistite sa, že sa presne zhoduje s tou, ktorú používate na prihlásenie na danej stránke.
 # Variables
@@ -178,9 +180,15 @@ confirmation-dialog-dismiss-button =
     .title = Zrušiť
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Odstrániť heslo?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Odstrániť heslo?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Túto akciu nie je možné vrátiť späť.
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = Heslo sa odstráni z aplikácie { -brand-short-name } vo všetkých zariadeniach, ktoré synchronizujú vaše heslá. Túto akciu nemožno vrátiť späť.
 about-logins-confirm-remove-dialog-confirm-button = Odstrániť
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Odstrániť
 
 ## Variables
 ##   $count (number) - Number of items
@@ -192,6 +200,14 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [few] Odstrániť všetky
        *[other] Odstrániť všetky
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Odstrániť
+        [one] Odstrániť
+        [few] Odstrániť všetky
+       *[other] Odstrániť všetky
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
@@ -199,6 +215,14 @@ about-logins-confirm-remove-all-dialog-checkbox-label2 =
         [one] Áno, odstrániť heslo
         [few] Áno, odstrániť heslá
         [many] Áno, odstrániť heslá
+       *[other] Áno, odstrániť heslá
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] Áno, odstrániť heslo
+        [one] Áno, odstrániť heslo
+        [few] Áno, odstrániť heslá
        *[other] Áno, odstrániť heslá
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
@@ -226,6 +250,13 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [many] Odstrániť { $count } hesiel zo všetkých zariadení?
        *[other] Odstrániť { $count } hesiel zo všetkých zariadení?
     }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] Odstrániť { $count } heslo?
+        [few] Odstrániť { $count } heslá?
+       *[other] Odstrániť { $count } hesiel?
+    }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
     { $count ->
@@ -234,6 +265,14 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
         [few] Týmto sa odstráni heslá uložené vo { -brand-short-name(case: "loc") } zo všetkých synchronizovaných zariadení. Takisto sa odstránia všetky upozornenia na únik údajov, ktoré sa tu môžu zobrazovať. Túto akciu nie je možné vrátiť späť.
         [many] Týmto sa odstráni heslá uložené vo { -brand-short-name(case: "loc") } zo všetkých synchronizovaných zariadení. Takisto sa odstránia všetky upozornenia na únik údajov, ktoré sa tu môžu zobrazovať. Túto akciu nie je možné vrátiť späť.
        *[other] Týmto sa odstráni heslá uložené vo { -brand-short-name(case: "loc") } zo všetkých synchronizovaných zariadení. Takisto sa odstránia všetky upozornenia na únik údajov, ktoré sa tu môžu zobrazovať. Túto akciu nie je možné vrátiť späť.
+    }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] Odstráni sa tým z aplikácie { -brand-short-name } vo všetkých zariadeniach, ktoré synchronizujú vaše heslá. Túto akciu nemožno vrátiť späť.
+        [one] Odstráni sa tým z aplikácie { -brand-short-name } vo všetkých zariadeniach, ktoré synchronizujú vaše heslá. Túto akciu nemožno vrátiť späť.
+        [few] Odstránia sa tým z aplikácie { -brand-short-name } vo všetkých zariadeniach, ktoré synchronizujú vaše heslá. Túto akciu nemožno vrátiť späť.
+       *[other] Odstránia sa tým z aplikácie { -brand-short-name } vo všetkých zariadeniach, ktoré synchronizujú vaše heslá. Túto akciu nemožno vrátiť späť.
     }
 
 ##

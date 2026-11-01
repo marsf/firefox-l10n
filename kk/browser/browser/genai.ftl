@@ -74,6 +74,9 @@ genai-shortcut-search-button =
 genai-shortcut-copy-button =
     .aria-label = Таңдалған мәтінді көшіру
     .tooltiptext = Таңдалған мәтінді көшіру
+# Shown briefly after clicking the Copy action in the text selection menu,
+# confirming the selection was copied to the clipboard.
+genai-shortcut-copy-confirmation = Көшірілді
 genai-shortcut-more-actions-button =
     .aria-label = Көбірек опциялар
     .tooltiptext = Көбірек опциялар

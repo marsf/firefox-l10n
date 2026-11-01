@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Басқа браузе
 about-logins-menu-menuitem-import-from-a-file = Файлдан импорттау…
 about-logins-menu-menuitem-export-logins2 = Парольдерді экспорттау…
 about-logins-menu-menuitem-remove-all-logins2 = Барлық парольдерді өшіру…
+about-logins-menu-menuitem-delete-all-logins = Барлық парольдерді өшіру…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Баптаулар
@@ -89,6 +90,7 @@ about-logins-intro-import3 = Парольді қазір қосу үшін, жо
 about-logins-login-item-new-login-title = Парольді қосу
 login-item-edit-button = Түзету
 about-logins-login-item-remove-button = Өшіру
+about-logins-login-item-delete-button = Өшіру
 login-item-origin-label = Веб-сайт адресі
 about-logins-origin-tooltip2 = Толық адресті енгізіңіз және ол адрес жүйеге кіретін адресіне сәйкес келетініне көз жеткізіңіз.
 # Variables
@@ -174,9 +176,13 @@ confirmation-dialog-dismiss-button =
     .title = Бас тарту
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Парольді өшіру керек пе?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Парольді өшіру керек пе?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Бұл әрекетті болдырмау мүмкін емес.
 about-logins-confirm-remove-dialog-confirm-button = Өшіру
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Өшіру
 
 ## Variables
 ##   $count (number) - Number of items
@@ -186,11 +192,23 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [1] Өшіру
        *[other] Барлығын өшіру
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Өшіру
+       *[other] Барлығын өшіру
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
         [1] Иә, парольді өшіру
         [one] Иә, парольді өшіру
+       *[other] Иә, парольдерді өшіру
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] Иә, парольді өшіру
        *[other] Иә, парольдерді өшіру
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
@@ -211,6 +229,12 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
     { $count ->
         [one] { $count } парольді барлық құрылғылардан өшіру керек пе?
        *[other] { $count } парольді барлық құрылғылардан өшіру керек пе?
+    }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] { $count } парольді өшіру керек пе?
+       *[other] { $count } парольді өшіру керек пе?
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
