@@ -583,6 +583,9 @@ newtab-travel-widget-open-menu-button =
     .title = Саяхат мәзірін ашу
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = Көбірек білу
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Kayak қолдауымен
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
@@ -1854,6 +1857,10 @@ newtab-clock-widget-menu-edit = Сағаттарды түзету
 newtab-clock-widget-menu-switch-to-12h = 12-сағаттық пішімге ауысу
 newtab-clock-widget-menu-switch-to-24h = 24-сағаттық пішімге ауысу
 newtab-clock-widget-label-your-clocks = Сіздің сағаттарыңыз
+# "Back" is an icon-only button next to the city search field form that returns to the list of clocks.
+newtab-clock-widget-search-back-button =
+    .aria-label = Артқа
+    .title = Артқа
 newtab-clock-widget-search-location-input2 =
     .aria-label = Қаланы іздеу
     .placeholder = Қаланы іздеу
