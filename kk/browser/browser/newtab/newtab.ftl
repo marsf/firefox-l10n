@@ -1145,6 +1145,10 @@ newtab-weather-menu-change-location = Орналасуды ауыстыру
 newtab-weather-change-location-search-input-placeholder =
     .aria-label = Орналасуды іздеу
     .placeholder = Орналасуды іздеу
+# "Back" is an icon-only button next to the location search field that returns to the widget.
+newtab-weather-search-back-button =
+    .aria-label = Артқа
+    .title = Артқа
 newtab-weather-cancel-input =
     .aria-label = Бас тарту
     .title = Бас тарту

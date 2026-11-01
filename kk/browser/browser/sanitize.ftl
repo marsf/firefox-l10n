@@ -86,6 +86,9 @@ item-active-logins =
 item-cache =
     .label = Кэш
     .accesskey = К
+item-cached-content2 =
+    .label = Уақытша файлдар
+    .accesskey = ф
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
