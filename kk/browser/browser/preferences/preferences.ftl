@@ -1852,6 +1852,22 @@ permissions-data-section =
     .heading = Рұқсаттар мен деректер
 pane-permissions-data-title2 = Рұқсаттар мен деректер
     .title = Рұқсаттар мен деректер
+# Heading of the list of websites when it has no rows, because no website has a
+# stored notification decision or a search matches no website.
+notifications-list-header-empty =
+    .label = Веб-сайттар
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Always" is used where notifications can
+# also be delivered while Firefox is closed.
+notifications-state-always = Әрқашан
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Allow" is used where notifications
+# cannot be delivered while Firefox is closed.
+notifications-state-allow = Рұқсат ету
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications", for websites blocked from sending
+# notifications.
+notifications-state-never = Ешқашан
 
 ## Privacy Section - Data Collection
 
