@@ -82,6 +82,20 @@ smart-window-opened-tabs-row-label = Atvērtās cilnes
 ## Action log
 
 action-log-searching-tabs = Meklē cilnes
+action-log-searched-history = Meklēšanas vēsture
+action-log-reading-page = Lasīšanas lapa
+# Read is past tense, to indicate that the action has been completed.
+action-log-read-page = Lasīt lapas saturu
+action-log-searching-web = Meklēšana tīmeklī
+action-log-searched-web = Meklēja tīmeklī
+# Exa is the name of a third-party web search API and a brand name that
+# should not be translated. The <a> wraps "Exa" as a link to a support
+# article explaining the third-party web search integration.
+action-log-searching-web-with-exa = Meklēšana tīmeklī, izmantojot <a data-l10n-name="exa-link">Exa</a>
+# Exa is the name of a third-party web search API and a brand name that
+# should not be translated. The <a> wraps "Exa" as a link to a support
+# article explaining the third-party web search integration.
+action-log-searched-web-with-exa = Meklēja tīmeklī, izmantojot <a data-l10n-name="exa-link">Exa</a>
 action-log-searching-settings = Meklē iestatījumus
 action-log-searched-settings = Meklēja iestatījumus
 
