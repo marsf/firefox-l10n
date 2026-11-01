@@ -562,6 +562,9 @@ onboarding-refresh-terms-of-use-with-links = Gaž pókšacujośo, zwólijośo do
 onboarding-refresh-data-collection-link = Nastajenja zběrki datow zastojaś
 onboarding-refresh-primary-button = Dalej
 onboarding-refresh-fro-import-header = Zapódajśo swóje daty
+# "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
+# Refers to personal data, indicating that ownership of imported data remains with the user.
+onboarding-refresh-fro-import-subtitle = Waše daty waše wóstanu. { -brand-product-name } nigda wósobinske daty njepśedawa.
 onboarding-refresh-fro-import-body = Waše wósobinske daty wósobinske wóstawaju. { -brand-product-name } je nigda njepśedajo.
 onboarding-refresh-fro-skip-button = Pśeskócyś
 onboarding-refresh-fro-theme-header = Grajśo ze swójim naglědom

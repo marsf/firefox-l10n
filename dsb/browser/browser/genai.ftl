@@ -91,6 +91,9 @@ genai-more-actions-search =
     .label = Pytaś
 genai-more-actions-copy =
     .label = Kopěrowaś
+# The span is a right-pointing chevron that separates the steps of the path to
+# the setting, in place of a ">" character.
+genai-more-actions-all-off-notice = Njebuźośo toś ten meni wiźeś, gaž tekst wuběraśo. Pśejźćo k Nastajenja <span data-l10n-name="chevron"></span> Rejtariki a pśeglědowanje, aby jen zasej pokazał.
 genai-more-actions-manage-settings =
     .label = Nastajenja zastojaś
 genai-selection-callout-title = Wuzwigniśo tekst, aby akciju wubrał

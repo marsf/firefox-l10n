@@ -86,6 +86,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = Cookieje a sedłowe daty
     .accesskey = C
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = Wótzjawijo was a wuproznijo snaź nakupowańske wózyki
 item-cookies-site-data-description = Wótzjawijo was snaź wót sedłow abo proznych nakupowańskich wózykow
 item-active-logins =
     .label = Aktiwne pśizjawjenja

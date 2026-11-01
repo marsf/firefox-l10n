@@ -1482,6 +1482,7 @@ unified-extensions-button-blocklisted =
 ## Private browsing reset button
 
 reset-pbm-panel-heading2 = Daty lašowaś a nowe priwatne pósejźenje zachopiś?
+reset-pbm-panel-description3 = To wašu historiju a waše cookieje lašujo, a wótzjawijo was wót sedłow. Waše priwatne wokna se zacyniju a nowe wokno se wócynijo.
 reset-pbm-panel-description2 = To historiju, cookieje a wšykne waše druge sedłowe daty lašujo, bźez togo aby se priwatne wokno zacyniło.
 reset-pbm-panel-always-ask-checkbox =
     .label = Pśecej se pšašaś
