@@ -567,6 +567,9 @@ newtab-horoscopes-widget-menu-button =
     .aria-label = Гороскоптар опциялары
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = Көбірек білу
+# Context menu item linking to the Yahoo website, the provider of the
+# horoscopes. “Yahoo” is a brand name and should not be translated.
+newtab-horoscopes-menu-powered-by-yahoo = Yahoo қолдауымен
 
 ## Strings for the Travel widget
 

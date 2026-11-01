@@ -467,5 +467,7 @@ vpn-error-page-keep-browsing = Pokračovať v prehliadaní v tejto relácii
 vpn-error-page-new-session = Začať novú reláciu
 vpn-paused-alert-close-tabs-button = Zavrieť všetky karty
 vpn-paused-alert-continue-wo-vpn-button = Pokračovať bez VPN
+vpn-error-alert-title-1 = VPN ani pravidlá momentálne nefungujú.
+vpn-error-alert-body-1 = Problém môže pomôcť vyriešiť vypnutie a opätovné zapnutie VPN.
 vpn-error-alert-title = VPN momentálne nefunguje.
 vpn-error-alert-body = Skúste to znova neskôr.

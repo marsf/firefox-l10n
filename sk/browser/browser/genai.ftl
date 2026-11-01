@@ -96,6 +96,9 @@ genai-more-actions-copy =
 genai-more-actions-all-off-notice = Táto ponuka sa pri označení textu nezobrazí. Ak ju chcete znova zapnúť, prejdite do časti Nastavenia <span data-l10n-name="chevron"></span> Karty a prehliadanie.
 genai-more-actions-manage-settings =
     .label = Spravovať nastavenia
+genai-selection-callout-title = Označte text a zvoľte akciu
+# "Search" and "Copy" are verbs.
+genai-selection-callout-text = Po označení textu ho môžete vyhľadať alebo skopírovať. V ponuke <span data-l10n-name="more-actions">•••</span> vyberte akcie, ktoré sa majú zobrazovať.
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = Opýtať sa { $provider }

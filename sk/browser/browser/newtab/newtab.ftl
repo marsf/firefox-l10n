@@ -599,6 +599,9 @@ newtab-travel-widget-open-menu-button =
     .title = Otvoriť ponuku cestovania
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = Ďalšie informácie
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Vďaka službe Kayak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
@@ -830,6 +833,9 @@ newtab-discovery-empty-section-topstories-header = Už ste prečítali všetko!
 newtab-discovery-empty-section-topstories-content = Ďalšie príbehy tu nájdete opäť neskôr.
 newtab-discovery-empty-section-topstories-try-again-button = Skúsiť znova
 newtab-discovery-empty-section-topstories-loading = Načítava sa…
+# Headline and body shown when stories fail to load, for example when offline or the server can’t be reached.
+newtab-discovery-empty-section-topstories-unavailable-header = Články momentálne nie sú dostupné
+newtab-discovery-empty-section-topstories-unavailable-body = Skontrolujte svoje pripojenie alebo to skúste neskôr znova.
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Hups! Túto sekciu sa nepodarilo načítať.
 
@@ -1128,6 +1134,9 @@ newtab-wallpaper-firefox-peak-dark = Tvár líšky pri ľavom okraji na tmavom p
 newtab-wallpaper-firefox-peak-light = Tvár líšky pri ľavom okraji na svetlom pozadí
 newtab-wallpaper-firefox-sky-dark = Tmavofialové kopce pod nočnou oblohou
 newtab-wallpaper-firefox-sky-light = Svetlé kopce pod nežnou oblohou
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = Znak Wrexham AFC na červenom pozadí
 
 ## Firefox
 
@@ -1567,6 +1576,9 @@ newtab-promo-card-dismiss-button =
 newtab-crossword-widget-open-menu-button =
     .aria-label = Otvoriť ponuku krížoviek
     .title = Otvoriť ponuku krížoviek
+# Context menu item linking to the Particle website, the provider of the
+# crossword. “Particle” is a brand name and should not be translated.
+newtab-crossword-menu-powered-by-particle = Vďaka službe Particle
 
 ## Strings introduced by the Nova redesign of the Timer widget
 
