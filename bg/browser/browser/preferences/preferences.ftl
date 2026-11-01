@@ -1285,7 +1285,7 @@ forms-primary-pw-change-2 =
     .label = Промяна на основната парола
 # Label for button to disable primary password.
 forms-primary-pw-turn-off =
-    .label = Изключете го
+    .label = Изключете
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
     .label = Изисква се влизане в устройство за попълването и управлението на паролите
