@@ -96,8 +96,18 @@ action-log-searching-web-with-exa = Meklēšana tīmeklī, izmantojot <a data-l1
 # should not be translated. The <a> wraps "Exa" as a link to a support
 # article explaining the third-party web search integration.
 action-log-searched-web-with-exa = Meklēja tīmeklī, izmantojot <a data-l10n-name="exa-link">Exa</a>
+action-log-checking-memories = Atmiņu pārbaude
+action-log-checked-memories = Pārbaudītas atmiņas
 action-log-searching-settings = Meklē iestatījumus
 action-log-searched-settings = Meklēja iestatījumus
+# Variables
+#   $count (Number) - how many tool steps completed in the turn
+action-log-completed-steps =
+    { $count ->
+        [one] Pabeigts 1 solis
+        [zero] Pabeigtas { $count } darbības
+       *[other] Pabeigti { $count } soļi
+    }
 
 ## Assistant Loader
 
@@ -105,3 +115,10 @@ action-log-searched-settings = Meklēja iestatījumus
 # current tab on the user’s behalf. Communicates both that the tab’s content
 # changed and that the assistant is reviewing the results before responding.
 smartwindow-search-loader-text = Meklēšanas iznākums ielādēts šajā cilnē. Analizē…
+
+## Citations
+
+# Label for the button that reveals overflowing citation sources.
+# Variables:
+#   $count (Number) - Number of the additional hidden sources
+smartwindow-assistant-citations-more-label = +{ $count } vēl

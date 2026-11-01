@@ -198,6 +198,14 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [one] Dzēst visu
        *[other] Dzēst visu
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Dzēst
+        [zero] Nedzēst
+        [one] Dzēst
+       *[other] Dzēst visus
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
@@ -227,6 +235,13 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [zero] Noņemt { $count } paroli no visām ierīcēm?
         [one] Noņemt { $count } paroles no visām ierīcēm?
        *[other] Noņemt { $count } paroļu no visām ierīcēm?
+    }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] Vai dzēst { $count } paroli?
+        [zero] Vai dzēst { $count } paroles?
+       *[other] Vai dzēst { $count } paroles?
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =
