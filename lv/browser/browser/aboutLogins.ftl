@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Ievietot datus no cita 
 about-logins-menu-menuitem-import-from-a-file = Ievietot no datnes…
 about-logins-menu-menuitem-export-logins2 = Izgūt paroles…
 about-logins-menu-menuitem-remove-all-logins2 = Izņemt visas paroles…
+about-logins-menu-menuitem-delete-all-logins = Dzēst visas paroles…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Iespējas
@@ -91,6 +92,7 @@ about-logins-intro-import3 = Jāatlasa augstāk esošā plus zīmes poga, lai uz
 about-logins-login-item-new-login-title = Pievienot paroli
 login-item-edit-button = Labot
 about-logins-login-item-remove-button = Noņemt
+about-logins-login-item-delete-button = Dzēst
 login-item-origin-label = Vietnes adrese
 about-logins-origin-tooltip2 = Ievadiet pilnu adresi un pārliecinieties, vai tā precīzi atbilst vietai, kur ierakstāties.
 # Variables
@@ -176,9 +178,15 @@ confirmation-dialog-dismiss-button =
     .title = Atcelt
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Izņemt paroli?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Dzēst paroli?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Šo darbību nevar atsaukt.
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = Tas izdzēsīs to no { -brand-short-name } katrā ierīcē, kas sinhronizē jūsu paroles. Šo darbību nevar atsaukt.
 about-logins-confirm-remove-dialog-confirm-button = Noņemt
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Dzēst
 
 ## Variables
 ##   $count (number) - Number of items
