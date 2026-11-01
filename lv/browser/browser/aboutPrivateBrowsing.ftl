@@ -74,8 +74,14 @@ about-private-browsing-felt-privacy-v1-info-link = Kas varētu redzēt manas dar
 ## Strings for the Nova redesign of about:privatebrowsing
 
 about-private-browsing-nova-info-body = Visu privāto logu aizvēršana izdzēš sīkdatnes, vēsturi un vietņu datus.
+about-private-browsing-nova-info-link = Kas joprojām varētu redzēt manu aktivitāti?
 about-private-browsing-private-window-basics-link = Privātā loga pamati
 about-private-browsing-private-window-redesign-subheader = { -brand-short-name } ir veidots, lai pārlūkošanas laikā aizsargātu privātumu ar iebūvētu aizsardzību pret izsekošanu. Šī loga aizvēršana izdzēš tā vēsturi, sīkdatnes un vietņu datus, lai pārlūkošana būtu privāta no citiem, kuri izmanto šo ierīci.
+# "You're off the record" is an English idiom meant to communicate that you
+# are not being recorded. If there is not a comparable phrase in the locale,
+# fall back to "Your browsing will be deleted"
+about-private-browsing-nova-info-header = Jūs neesat reģistrējis saziņu.
+about-private-browsing-nova-info-subheader2 = Kad aizvērsiet visas savas privātās Windows, mēs izdzēsīsim katru meklēšanu un pierakstīšanos. Šeit ir ieslēgtas arī { -brand-short-name } iebūvētās aizsardzības funkcijas, piemēram, izsekotāju bloķēšana.
 
 ## Strings for the Private Window basics spotlight
 

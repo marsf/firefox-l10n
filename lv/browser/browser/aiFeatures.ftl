@@ -4,12 +4,25 @@
 
 preferences-ai-controls-block-confirmation-smart-window = { -smart-window-brand-name }
 smart-window-block-title = Liegt { -smart-window-brand-name }?
+smart-window-block-description-both = Tas izdzēsīs jūsu { -smart-window-brand-name } sarunas un atmiņas.
+smart-window-block-description-chats = Tas izdzēsīs jūsu { -smart-window-brand-name } tērzēšanas sarunas.
+smart-window-block-description-memories = Tas izdzēsīs jūsu { -smart-window-brand-name } atmiņas.
+ai-window-features-group =
+    .description = Uzdodiet jautājumus, salīdziniet lapas un saņemiet personalizētus ieteikumus, izmantojot iebūvēto palīgu.
+    .label = { -smart-window-brand-name }
+smart-window-select-label =
+    .label = { -smart-window-brand-name }
+ai-window-activate-link =
+    .label = Sākt darbu
 ai-window-personalize-button =
     .label = { -smart-window-brand-name } iestatījumi
 ai-window-personalize-header =
     .heading = { -smart-window-brand-name }
 ai-window-default-section =
     .label = Noklusējuma iestatījumi
+ai-window-is-default-window =
+    .description = Atvērt { -smart-window-brand-name }, kad { -brand-short-name } tiek startēta, restartēta vai atver saites no citām lietotnēm.
+    .label = Pēc noklusējuma izmantot { -smart-window-brand-name }
 ai-window-open-sidebar =
     .description = Sānjoslā rādīt palīgu katrā jaunā cilnē. To var aizvērt jebkurā laikā.
     .label = Automātiski atvērt palīgu
@@ -28,6 +41,15 @@ smart-window-model-learn-link = Uzzināt par modeļiem
 ##   $model (string) - The name of the AI model
 ##   $ownerName (String) - The name of owner of the AI model
 
+smart-window-model-fast =
+    .description = Modelis { $model }, ko izveidojis { $ownerName }
+    .label = Ātri: atbildes ātri
+smart-window-model-flexible =
+    .description = Modelis { $model }, ko izveidojis { $ownerName }
+    .label = Elastīgs: izturīgs un piemērots lielākajai daļai vajadzību
+smart-window-model-personal =
+    .description = Modelis { $model }, ko izveidojis { $ownerName }
+    .label = Personīgi: Vispielāgotākās atbildes
 smart-window-model-custom-save =
     .label = Saglabāt
 ai-window-delete-all-memories-button =
