@@ -23,6 +23,7 @@ about-logins-menu-menuitem-import-from-another-browser = Z drugego wobglědowaka
 about-logins-menu-menuitem-import-from-a-file = Z dataje importěrowaś…
 about-logins-menu-menuitem-export-logins2 = Gronidła eksportěrowaś…
 about-logins-menu-menuitem-remove-all-logins2 = Wšykne gronidła wótwónoźeś…
+about-logins-menu-menuitem-delete-all-logins = Wšykne gronidła lašowaś…
 menu-menuitem-preferences =
     { PLATFORM() ->
         [windows] Nastajenja
@@ -93,6 +94,7 @@ about-logins-intro-import3 = Wubjeŕśo plusowe znamuško górjejce, aby něnto 
 about-logins-login-item-new-login-title = Gronidło pśidaś
 login-item-edit-button = Wobźěłaś
 about-logins-login-item-remove-button = Wótwónoźeś
+about-logins-login-item-delete-button = Lašowaś
 login-item-origin-label = Adresa websedła
 about-logins-origin-tooltip2 = Zapódajśo dopołnu adresu a zawěsććo, až jo eksaktny wótpowědnik za město, źož se pśizjawjaśo.
 # Variables
@@ -178,9 +180,15 @@ confirmation-dialog-dismiss-button =
     .title = Pśetergnuś
 # Title for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-title = Gronidło wótwónoźeś?
+# Title for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-title2 = Gronidło lašowaś?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Njamóžośo toś tu akciju anulěrowaś.
+# Message for modal to confirm the deletion of one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-message2 = To jo z { -brand-short-name } na kuždem rěźe wulašujo, kótaryž waše gronidła synchronizujo. Njamóžośo to anulěrowaś.
 about-logins-confirm-remove-dialog-confirm-button = Wótwónoźeś
+# Confirm button for the modal to delete one saved password when per-device sync is enabled
+about-logins-confirm-delete-dialog-confirm-button = Lašowaś
 
 ## Variables
 ##   $count (number) - Number of items
@@ -193,6 +201,15 @@ about-logins-confirm-remove-all-dialog-confirm-button-label =
         [few] Wše wótwónoźeś
        *[other] Wše wótwónoźeś
     }
+# Confirm button for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Lašowaś
+        [one] Wšykne lašowaś
+        [two] Wšykne lašowaś
+        [few] Wšykne lašowaś
+       *[other] Wšykne lašowaś
+    }
 # Checkbox for modal to confirm the removal of saved passwords
 about-logins-confirm-remove-all-dialog-checkbox-label2 =
     { $count ->
@@ -201,6 +218,15 @@ about-logins-confirm-remove-all-dialog-checkbox-label2 =
         [two] Jo, gronidle wótwónoźeś
         [few] Jo, gronidła wótwónoźeś
        *[other] Jo, gronidła wótwónoźeś
+    }
+# Checkbox for modal to confirm the deletion of saved passwords when user IS synced with per-device sync
+about-logins-confirm-delete-all-dialog-checkbox-label =
+    { $count ->
+        [1] Jo, gronidło lašowaś
+        [one] Jo, gronidło lašowaś
+        [two] Jo, gronidle lašowaś
+        [few] Jo, gronidła lašowaś
+       *[other] Jo, gronidłow lašowaś
     }
 # Title for modal to confirm the removal of all saved passwords when user is NOT synced
 about-logins-confirm-remove-all-dialog-title2 =
@@ -226,6 +252,14 @@ about-logins-confirm-remove-all-sync-dialog-title2 =
         [two] { $count } gronidle ze wšych rědow wótwónoźeś?
         [few] { $count } gronidła ze wšych rědow wótwónoźeś?
        *[other] { $count } gronidłow ze wšych rědow wótwónoźeś?
+    }
+# Title for modal to confirm the deletion of all saved passwords when user IS SYNCED with per-device sync
+about-logins-confirm-delete-all-sync-dialog-title =
+    { $count ->
+        [one] { $count } gronidło lašowaś?
+        [two] { $count } gronidle lašowaś?
+        [few] { $count } gronidła lašowaś?
+       *[other] { $count } gronidłow lašowaś?
     }
 # Message for modal to confirm the removal of saved passwords when user IS synced.
 about-logins-confirm-remove-all-sync-dialog-message3 =

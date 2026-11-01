@@ -185,7 +185,7 @@ about-logins-confirm-delete-dialog-title2 = Hesło zhašeć?
 # Message for modal to confirm the removal of one saved password
 about-logins-confirm-delete-dialog-message = Njemóžeće tutu akciju cofnyć.
 # Message for modal to confirm the deletion of one saved password when per-device sync is enabled
-about-logins-confirm-delete-dialog-message2 = To jo z { -brand-short-name } na kóždym graće zhaša, kotryž waše synchronizuje. Njemóžeće to cofnyć.
+about-logins-confirm-delete-dialog-message2 = To jo z { -brand-short-name } na kóždym graće zhaša, kotryž waše hesła synchronizuje. Njemóžeće to cofnyć.
 about-logins-confirm-remove-dialog-confirm-button = Wotstronić
 # Confirm button for the modal to delete one saved password when per-device sync is enabled
 about-logins-confirm-delete-dialog-confirm-button = Zhašeć
