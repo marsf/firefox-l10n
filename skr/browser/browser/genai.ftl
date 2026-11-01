@@ -74,9 +74,28 @@ genai-shortcut-search-button =
 genai-shortcut-copy-button =
     .aria-label = چُݨیا ہویا متن کاپی کرو
     .tooltiptext = چُݨیا ہویا متن کاپی کرو
+# Shown briefly after clicking the Copy action in the text selection menu,
+# confirming the selection was copied to the clipboard.
+genai-shortcut-copy-confirmation = کاپی تھی ڳیا
 genai-shortcut-more-actions-button =
     .aria-label = بیا اختیارات
     .tooltiptext = بیا اختیارات
+genai-more-actions-panel =
+    .aria-label = چݨو کڑھے ایکشنز ݙکھاوݨے ہن
+# $provider (string) - name of the chatbot provider
+genai-more-actions-ai-provider =
+    .label = { $provider } کنوں پچھو
+genai-more-actions-ai-generic =
+    .label = اے آئی کولوں پچھو
+genai-more-actions-search =
+    .label = تلاش کرو
+genai-more-actions-copy =
+    .label = کاپی کرو
+# The span is a right-pointing chevron that separates the steps of the path to
+# the setting, in place of a ">" character.
+genai-more-actions-all-off-notice = تساں جڈاں متن چݨسو تاں ایندا مینیو تساکوں نظر کائنی آوسی۔ ترتیبات <span data-l10n-name="chevron"></span> ٹیبز تے براؤزنگ وچ ونڄ کے ایکوں مڑ ݙکھاؤ۔
+genai-more-actions-manage-settings =
+    .label = ترتیبات دا انتظام کرو
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = پچھو { $provider }
@@ -250,6 +269,11 @@ highlight-to-search-settings-ask-generic =
 # with the default search engine.
 highlight-to-search-settings-search =
     .label = تلاش کرو
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Copy" is a verb: the action copies the selected text to the
+# clipboard.
+highlight-to-search-settings-copy =
+    .label = کاپی کرو
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = اے آئی نال مزید ݙیکھو؟
 # Message that appears when user is shown the opt-in flow for link previews

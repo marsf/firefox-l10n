@@ -567,6 +567,9 @@ newtab-horoscopes-widget-menu-button =
     .aria-label = زائچیاں دے آپشنز
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = بیا سکھو
+# Context menu item linking to the Yahoo website, the provider of the
+# horoscopes. “Yahoo” is a brand name and should not be translated.
+newtab-horoscopes-menu-powered-by-yahoo = یاہو دی طرفوں
 
 ## Strings for the Travel widget
 
@@ -1140,6 +1143,14 @@ newtab-weather-menu-change-location = مقام وٹاؤ
 newtab-weather-change-location-search-input-placeholder =
     .aria-label = مقام ڳولو
     .placeholder = مقام ڳولو
+# "Back" is an icon-only button next to the location search field that returns to the widget.
+newtab-weather-search-back-button =
+    .aria-label = پچھوں
+    .title = پچھوں
+# Screen reader label for the dropdown below the location search field that
+# lists matching locations as the user types.
+newtab-weather-location-search-results =
+    .aria-label = ٹکانے دیاں تجویزاں
 newtab-weather-cancel-input =
     .aria-label = منسوخ کرو
     .title = منسوخ کرو
@@ -1854,6 +1865,10 @@ newtab-clock-widget-menu-edit = گھڑیاں ایڈیٹ کرو
 newtab-clock-widget-menu-switch-to-12h = 12 گھنٹے دے فارمیٹ تے ونجو
 newtab-clock-widget-menu-switch-to-24h = 24 گھنٹے دے فارمیٹ تے ونجو
 newtab-clock-widget-label-your-clocks = تساݙیاں گھڑیاں
+# "Back" is an icon-only button next to the city search field form that returns to the list of clocks.
+newtab-clock-widget-search-back-button =
+    .aria-label = پچھوں
+    .title = پچھوں
 newtab-clock-widget-search-location-input2 =
     .aria-label = شہر ڳولو
     .placeholder = شہر ڳولو

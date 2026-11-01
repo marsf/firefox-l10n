@@ -142,6 +142,12 @@ permissions-site-notification-desc = ہیٹھ درج ویب سائٹاں  تہا
 permissions-site-notification-disable-label =
     .label = اطلاعات دی اجازت ݙیوݨ کیتے نویاں درخواستاں کوں روکو۔
 permissions-site-notification-disable-desc = ایہ کہیں وی ویب سائٹ کوں نوٹیفیکیشن بھیڄݨ دی اجازت دی درخواست کرݨ کنوں روک ݙیسے جیڑھے اوپر درج کائنی۔ اطلاعات کوں  ݙکݨ نال ویب سائٹ دیاں کجھ خصوصیات ترت سڳدیاں ہن۔
+# Shown only where notifications can be delivered while the browser is closed.
+permissions-site-notification-closed-delivery-label =
+    .label = { -brand-short-name } بند ہووݨ تے ویب سائٹ دیاں اطلاعاں دی اجازت ݙیو
+# Notes that the operating system's own notification settings can still block
+# notifications delivered while the browser is closed.
+permissions-site-notification-closed-delivery-desc = آپݨے OS دیاں اطلاعاں دیاں ترتیبات بیا لاگو تھیندیاں ہن۔
 
 ## Site Permissions - Location
 

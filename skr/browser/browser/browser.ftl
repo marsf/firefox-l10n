@@ -1462,6 +1462,7 @@ unified-extensions-button-blocklisted =
 ## Private browsing reset button
 
 reset-pbm-panel-heading2 = ڈیٹا صاف کرو تے نواں پرائیویٹ سیشن شروع کرو؟
+reset-pbm-panel-description3 = ایندا آپݨی ہسٹری تے کوکیز صاف کریسی تے تساکوں سائٹس توں سائن آؤٹ کریسی۔ آپݨے پرائیویٹ ونڈوز بند تھی ویسن تے ہک تازہ کھل ویسی۔
 reset-pbm-panel-description2 = ایہ تہاݙی پرائیویٹ ونڈو بند کیتے بغیر ہسٹری، کوکیز تے سارا ٻیا سائٹ ڈیٹا مٹا ݙیندا ہے۔
 reset-pbm-panel-always-ask-checkbox =
     .label = ہمیشاں میݙے کنوں پچھو
@@ -1497,6 +1498,9 @@ fire-button-panel-confirm-button =
     .label = سبھ حذف کرو
     .accesskey = D
 fire-button-panel-complete = براؤزنگ ڈیٹا مٹ ڳیا
+fire-button-toolbar-button2 =
+    .label = کچھ یا سارا ڈیٹا ڈیلیٹ کرو
+    .tooltiptext = آپݨی براؤزنگ دا کچھ یا سارا ڈیٹا ڈیلیٹ کرو
 
 ## Autorefresh blocker
 

@@ -17,6 +17,7 @@ customkeys-reset-all = سارے شارٹ کٹس کوں ڈیفالٹ تے ری س
 customkeys-conflict-confirm = ایہ بٹن پہلے ہی { $conflict } کوں ݙتا ڳیا اے۔ کیا تساں اونکوں تبدیل کرݨ چاہندے ہو؟
 customkeys-reset-all-confirm = کیا تساں واقعی سارے کی بورڈ شارٹ کٹس کوں انہاں دے ڈیفالٹس تے ری سیٹ کرݨ چاہندے ہو؟
 customkeys-file-duplicate-tab = ٹیب دی نقل بݨاؤ
+customkeys-file-copy-tab-url = ٹیب دا URL کاپی کرو
 customkeys-file-focus-search = تلاش بار تے فوکس کرو
 customkeys-history-reopen-tab = آخری بند تھیا ٹیب ولا کھولو
 customkeys-history-reopen-window = آخری بند تھئی ونڈو ولا کھولو
@@ -83,6 +84,16 @@ customkeys-key-new =
     .label = نویں کی دباؤ:
 # Displayed below the action label (e.g. "Undo") when the shortcut cannot be changed.
 customkeys-key-unchangeable = (تبدیل نئیں تھی سڳدی)
+# Displayed below the action label (e.g. "Undo") when the user has assigned the
+# shortcut in the operating system's keyboard settings (System Settings on
+# macOS). That shortcut is used instead of any shortcut set here, and it can't
+# be changed here. Translate "keyboard settings" the way the operating system
+# names these settings in your language. "set" here means "assigned".
+customkeys-key-system-assigned =
+    { PLATFORM() ->
+        [macos] (macOS کیبورڈ ترتیبات وچ مقرر)
+       *[other] (آپݨے سسٹم دیاں کیبورڈ ترتیبات وچ مقرر)
+    }
 
 ## Confirmation dialogs
 

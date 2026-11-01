@@ -548,10 +548,14 @@ onboarding-refresh-terms-of-use-with-links = جاری رکھ کے تساں <a da
 onboarding-refresh-data-collection-link = ڈیٹا جمع کرݨ دیاں سیٹنگز منیج کرو۔
 onboarding-refresh-primary-button = جاری رکھو۔
 onboarding-refresh-fro-import-header = اپݨا ڈیٹا گھن آؤ۔
+# "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
+# Refers to personal data, indicating that ownership of imported data remains with the user.
+onboarding-refresh-fro-import-subtitle = ایندا آپݨا رہسی۔ { -brand-product-name } ذاتی ڈیٹا کݙاہیں ویچدا کائنی۔
 onboarding-refresh-fro-import-body = تہاڈا ذاتی ڈیٹا ذاتی ہی رہسے۔ { -brand-product-name } اوکوں کدھی نیں ویچسے۔
 onboarding-refresh-fro-skip-button = چھوڑو۔
 onboarding-refresh-fro-theme-header = اپݨی شکل نال کھیڈو۔
 onboarding-refresh-tab-layout-header = ہِک مختلف ٹیب لے آؤٹ آزماؤ۔
+onboarding-refresh-fro-tab-layout-title = نواں ٹیب لے آؤٹ چݨو
 onboarding-refresh-tab-layout-top = اُتے۔
 onboarding-refresh-tab-layout-side = پاسے تے۔
 onboarding-refresh-tab-layout-minimal = نکا۔

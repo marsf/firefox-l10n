@@ -527,3 +527,17 @@ refresh-profile-infobar-button = ریفریش کرو { -brand-short-name }…
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
 restore-session-startup-suggestion-message = <strong>پچھلیاں ٹیباں کھولو؟</strong> تساں تاریخ دے تحت { -brand-short-name } ایپلیکیشن مینیو <img data-l10n-name="icon"/> کنوں اپݨے پچھلے سیشن کوں بحال کر سڳدے او۔
 restore-session-startup-suggestion-button = میکوں ݙکھاؤ کیویں
+
+## Taskbar Tabs Spotlight
+##
+## A dialog that suggests websites to add to the Windows taskbar. Each website
+## is shown in a row with its name, web address and an “Add” button.
+
+taskbar-tabs-spotlight-title = آپݨے پسندیدہ سائٹس کوں ایپ وانگوں کھولو
+taskbar-tabs-spotlight-subtitle = ہک کلک آپݨے سب توں زیادہ ورتے ونڄݨ آلے سائٹس کوں ہک سادہ ونڈو وچ کھولیسی، جیندے وچ { -brand-short-name } دیاں ساریاں حفاظتاں ہوݨ۔
+# Heading above the list of suggested websites.
+taskbar-tabs-spotlight-sites-heading = آپݨے ٹاسکبار وچ شامل کرݨ کیتے چݨو
+# Button shown in each row of the list of websites. Clicking it adds the
+# website in that row to the Windows taskbar.
+taskbar-tabs-spotlight-add-button = شامل کرو
+taskbar-tabs-spotlight-done-button = مکمل

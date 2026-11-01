@@ -54,6 +54,8 @@ clear-time-duration-value-since-midnight =
     .label = { $midnightTime } کنوں
 clear-time-duration-value-today =
     .label = اڄ
+clear-time-duration-value-all-time =
+    .label = سارا وقت
 clear-time-duration-value-everything =
     .label = ہر شئے
 clear-time-duration-suffix =
@@ -63,6 +65,11 @@ clear-time-duration-suffix =
 ## to select the items to remove
 
 history-section-label = تاریخ
+item-history-and-downloads2 =
+    .label = براؤزنگ تے ڈاؤنلوڈز دی تاریخ
+    .accesskey = ب
+# Description for the "Browsing and downloads history" item, which can be selected for deletion
+item-history-and-downloads-description3 = وزٹ کیتے ڳئے سائٹس تے ڈاؤنلوڈز دی فہرست
 item-history-and-downloads =
     .label = براؤزنگ تے ڈاؤن لوڈ تاریخ
     .accesskey = B
@@ -79,6 +86,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = کوکیاں تے سائٹ ڈیٹا
     .accesskey = e
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = تساکوں سائن آؤٹ کریسی تے شاپنگ کارٹس صاف کر سگدی اے۔
 item-cookies-site-data-description = تُہاکُوں خالی سائٹاں یا خالی شاپنگ ٹوکریاں کنوں سائن آؤٹ کر سڳدا ہِے
 item-active-logins =
     .label = لاگ انز فعال کرو
@@ -86,6 +95,17 @@ item-active-logins =
 item-cache =
     .label = کیشے
     .accesskey = a
+# Variables:
+#   $amount (Number) - Amount of cached data
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cached-content-with-size2 =
+    .label = عارضی فائلاں ({ $amount } { $unit })
+    .accesskey = ف
+item-cached-content2 =
+    .label = عارضی فائلاں
+    .accesskey = ف
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = سائٹس کوں جلدی لوڈ کرݨ وچ مدد کریندیاں ہن۔
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
@@ -105,6 +125,10 @@ item-site-prefs =
 item-formdata-prefs =
     .label = محفوظ کیتی ڳئی فارم معلومات
     .accesskey = o
+# Description for the "Saved form info" item, which can be selected for deletion
+item-formdata-description2 = ناں، ای میلز، تے فارم اندراجات۔
+# Description for the "Site settings" item, which can be selected for deletion
+item-site-prefs-description2 = ویب سائٹ دیاں اجازتاں تے ترجیحاں۔
 item-formdata-description = فارم وچ درج کیتیاں ڳئیاں شیواں، جیویں ناں، ای میل تے بیاں شیواں صاف کریندے
 item-site-prefs-description = تُہاݙی اجازت اَتے سائٹ ترجیح کوں اصل ترتبیاں اُتے وَلا سیٹ کرو
 data-section-label = ڈیٹا
@@ -114,6 +138,7 @@ item-site-settings =
 item-offline-apps =
     .label = آف لائن ویب سائٹ ڈیٹا
     .accesskey = O
+sanitize-everything-undo-warning2 = ایندا واپس کائنی تھی سگدا۔
 sanitize-everything-undo-warning = ایہ عمل آیا ون٘ڄایا نئیں تھی سڳدا۔
 window-close =
     .key = w

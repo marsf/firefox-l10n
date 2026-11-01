@@ -106,6 +106,19 @@ neterror-dns-not-found-offline-hint-different-device = کہیں ٻئے ڈیوا�
 neterror-dns-not-found-offline-hint-modem = اپݨا موڈم یا راؤٹر چیک کرو۔
 neterror-dns-not-found-offline-hint-reconnect = وائی فائی توں ڈسکنکٹ کر تے ول کنکٹ کرو۔
 
+## Hints shown, as one list of steps, when a connection to this computer
+## (localhost) is refused.
+## Variables:
+##   $port (String) - The port number the connection was refused on.
+
+neterror-loopback-refused-not-running = پورٹ { $port } تے کوݨ کائنی کنکشن قبول کریندا۔ چیک کرو بھلا آپݨا لوکل سرور چلدا پئیا اے۔
+# "it" is the local server that the user is trying to reach.
+neterror-loopback-refused-wrong-port = اگر ایندا چلدا پئیا اے تاں چیک کرو بھلا ایندا پورٹ { $port } ورتیندا پئیا اے۔
+# "this address" is the IP address of the page that failed to load, for example
+# 127.0.0.1 or [::1]. Do not translate or reformat the literal addresses [::1]
+# and 127.0.0.1 in the text.
+neterror-loopback-refused-address = چیک کرو بھلا سرور ایں پتے تے کنکشن قبول کریندا اے۔ کچھ سرور صرف [::1] تے سنݨدے ہن یا صرف 127.0.0.1 تے۔
+
 ## TRR-only specific messages
 ## Variables:
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
