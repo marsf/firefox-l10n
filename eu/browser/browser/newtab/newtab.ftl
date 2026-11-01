@@ -1117,6 +1117,9 @@ newtab-wallpaper-firefox-peak-dark = Azeriaren aurpegia ezkerreko ertzean, atzek
 newtab-wallpaper-firefox-peak-light = Azeriaren aurpegia ezkerreko ertzean, atzeko plano argian
 newtab-wallpaper-firefox-sky-dark = Muino more ilunak gaueko zerupean
 newtab-wallpaper-firefox-sky-light = Muino more argiak zeru leunpean
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = Wrexham AFC taldearen armarria atzeko plano gorrian
 
 ## Firefox
 

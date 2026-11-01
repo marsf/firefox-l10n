@@ -23,6 +23,9 @@ narrate-skip-next =
 
 # Header for the read aloud menu.
 narrate-header = Irakurri ozenki
+narrate-rate-input =
+    .aria-label = Aukeratu narrazioaren abiadura -100 eta 100 tartean; 0 abiadura lehenetsia da.
+    .title = Abiadura
 narrate-rate-slow =
     .title = Mantsotu narrazioa
 narrate-rate-fast =
