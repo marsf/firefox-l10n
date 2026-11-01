@@ -274,6 +274,14 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
         [with-cases] Tímto odstraníte hesla, která jste uložili do { -brand-short-name(case: "gen") } na všech zařízeních synchronizovaných s vaším účtem. Tím se také odstraní upozornění na úniky, která se zde zobrazují. Tuto akci nelze vzít zpět.
        *[no-cases] Tímto odstraníte hesla, která jste uložili do aplikace { -brand-short-name } na všech zařízeních synchronizovaných s vaším účtem. Tím se také odstraní upozornění na úniky, která se zde zobrazují. Tuto akci nelze vzít zpět.
     }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] Tímto smažete své heslo z aplikace { -brand-short-name } na všech zařízeních, která synchronizují vaše hesla. Tuto akci nelze vzít zpět.
+        [one] Tímto smažete své heslo z aplikace { -brand-short-name } na všech zařízeních, která synchronizují vaše hesla. Tuto akci nelze vzít zpět.
+        [few] Tímto smažete svá hesla z aplikace { -brand-short-name } na všech zařízeních, která synchronizují vaše hesla. Tuto akci nelze vzít zpět.
+       *[other] Tímto smažete svá hesla z aplikace { -brand-short-name } na všech zařízeních, která synchronizují vaše hesla. Tuto akci nelze vzít zpět.
+    }
 
 ##
 

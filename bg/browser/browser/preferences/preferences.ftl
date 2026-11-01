@@ -901,6 +901,14 @@ search-separate-default-engine-2 =
     .accesskey = д
 search-separate-default-engine-dropdown =
     .aria-label = Търсеща машина по подразбиране в поверителни прозорци
+# "Navigation" here means moving around within the address bar and its results
+# list, not navigation to the address bar.
+addressbar-navigation-group =
+    .label = Навигиране в адресната лента
+# "Results menu" refers to the menu available on each row of the address bar
+# results list, which offers actions such as dismissing the result.
+addressbar-skip-result-menu-on-tab =
+    .label = Пропускане на менюто с резултати при използване на клавиша Tab за преместване на фокуса
 search-suggestions-header-2 =
     .label = Предложения от търсещите машини
 search-one-click-header2 = Преки пътища за търсене
