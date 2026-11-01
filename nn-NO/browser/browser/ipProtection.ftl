@@ -387,6 +387,7 @@ ip-protection-delete-site-rule-cancel =
     .label = Avbryt
 ip-protection-delete-site-rule-confirm =
     .label = Slett
+ip-protection-delete-all-site-rules-message = Slette alle nettstadreglar?
 ip-protection-delete-all-site-rules-confirm =
     .label = Slett alle reglar
 # Shown in place of the delete confirmation when deleting a rule fails.
@@ -459,5 +460,6 @@ vpn-error-page-keep-browsing = Fortset å surfe i denne økta
 vpn-error-page-new-session = Start ei ny programøkt
 vpn-paused-alert-close-tabs-button = Lat att alle faner
 vpn-paused-alert-continue-wo-vpn-button = Hald fram utan VPN
+vpn-error-alert-title-1 = VPN og reglar fungerer ikkje akkurat no.
 vpn-error-alert-title = VPN fungerer ikkje akkurat no.
 vpn-error-alert-body = Prøv igjen seinare.
