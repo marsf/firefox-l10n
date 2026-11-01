@@ -835,6 +835,8 @@ newtab-discovery-empty-section-topstories-header = Sćo dogónjony!
 newtab-discovery-empty-section-topstories-content = Glědajśo póozdźej za wěcej tšojenjami.
 newtab-discovery-empty-section-topstories-try-again-button = Hyšći raz wopytaś
 newtab-discovery-empty-section-topstories-loading = Zacytujo se…
+# Headline and body shown when stories fail to load, for example when offline or the server can’t be reached.
+newtab-discovery-empty-section-topstories-unavailable-header = Tšojeńka tuchylu njejsu k dispoziciji
 newtab-discovery-empty-section-topstories-unavailable-body = Pśeglědujśo swój zwisk abo wopytajśo pózdźej hyšći raz.
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Hopla! Smy womało zacytali toś ten wótrězk, ale nic cele.
@@ -1135,6 +1137,9 @@ newtab-wallpaper-firefox-peak-dark = Woblico liški na lěwej kšomje, na śamne
 newtab-wallpaper-firefox-peak-light = Woblico liški na lěwej kšomje, na swětłej slězynje
 newtab-wallpaper-firefox-sky-dark = Śamne wioletne górki pód nocnym njebjom
 newtab-wallpaper-firefox-sky-light = Swětłe górki pód miłym njebjom
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = Wopon Wrexham AFC na cerwjonej slězynje
 
 ## Firefox
 

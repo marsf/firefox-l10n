@@ -102,6 +102,8 @@ item-cached-content-with-size2 =
 item-cached-content2 =
     .label = Temporarne dataje
     .accesskey = d
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = Pomaga, sedła malsnjej zacytaś
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"

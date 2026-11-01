@@ -93,6 +93,9 @@ genai-more-actions-copy =
     .label = Kopěrowaś
 genai-more-actions-manage-settings =
     .label = Nastajenja zastojaś
+genai-selection-callout-title = Wuzwigniśo tekst, aby akciju wubrał
+# "Search" and "Copy" are verbs.
+genai-selection-callout-text = Pytajśo abo kopěrujśo, gaž tekst wuběraśo. Wubjeŕśo, kótare akcije maju se w meniju <span data-l10n-name="more-actions">•••</span> zjawiś.
 # $provider (string) - name of the AI chat provider
 genai-shortcut-button =
     .aria-label = { $provider } se pšašaś
