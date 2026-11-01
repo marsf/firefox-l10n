@@ -89,6 +89,7 @@ about-logins-intro-import3 = سی ٱووردن رزم، دویمه موسبت ن
 about-logins-login-item-new-login-title = ٱووردن رزم
 login-item-edit-button = آلشت
 about-logins-login-item-remove-button = پاک کردن
+about-logins-login-item-delete-button = پاک کردن
 login-item-origin-label = نشۊوی وبگه
 about-logins-origin-tooltip2 = نشۊوی کامل ن بزنین وو موتمعن بۊین وا جایی ک و منس ٱوۊڌین دییق ی جۊر بۊ.
 # Variables
