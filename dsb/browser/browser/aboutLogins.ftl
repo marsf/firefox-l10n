@@ -270,6 +270,15 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
         [few] To { $count } gronidła wótwónoźijo, kótarež sćo składł w { -brand-short-name } na wšych wašych synchronizěrowanych rědach. To teke warnowanja wó datowych źěrach wótwónoźijo, kótarež se how pokazuju. Njamóžośo toś tu akciju anulěrowaś.
        *[other] To { $count } gronidłow wótwónoźijo, kótarež sćo składł w { -brand-short-name } na wšych wašych synchronizěrowanych rědach. To teke warnowanja wó datowych źěrach wótwónoźijo, kótarež se how pokazuju. Njamóžośo toś tu akciju anulěrowaś.
     }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] To jen z { -brand-short-name } na kuždem rěźe wulašujo, kótaryž waše gronidła synchronizujo. Njamóžośo to anulěrowaś.
+        [one] To jen z { -brand-short-name } na kuždem rěźe wulašujo, kótaryž waše gronidła synchronizujo. Njamóžośo to anulěrowaś.
+        [two] To jej z { -brand-short-name } na kuždem rěźe wulašujo, kótaryž waše gronidła synchronizujo. Njamóžośo to anulěrowaś.
+        [few] To je z { -brand-short-name } na kuždem rěźe wulašujo, kótaryž waše gronidła synchronizujo. Njamóžośo to anulěrowaś.
+       *[other] To je z { -brand-short-name } na kuždem rěźe wulašujo, kótaryž waše gronidła synchronizujo. Njamóžośo to anulěrowaś.
+    }
 
 ##
 

@@ -601,6 +601,9 @@ newtab-travel-widget-open-menu-button =
     .title = Meni drogowanja wócyniś
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = Dalšne informacije
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Spěchowany wót Kayak
 
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
@@ -832,6 +835,7 @@ newtab-discovery-empty-section-topstories-header = Sćo dogónjony!
 newtab-discovery-empty-section-topstories-content = Glědajśo póozdźej za wěcej tšojenjami.
 newtab-discovery-empty-section-topstories-try-again-button = Hyšći raz wopytaś
 newtab-discovery-empty-section-topstories-loading = Zacytujo se…
+newtab-discovery-empty-section-topstories-unavailable-body = Pśeglědujśo swój zwisk abo wopytajśo pózdźej hyšći raz.
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Hopla! Smy womało zacytali toś ten wótrězk, ale nic cele.
 
@@ -1570,6 +1574,9 @@ newtab-promo-card-dismiss-button =
 newtab-crossword-widget-open-menu-button =
     .aria-label = Meni kśicawki wócyniś
     .title = Meni kśicawki wócyniś
+# Context menu item linking to the Particle website, the provider of the
+# crossword. “Particle” is a brand name and should not be translated.
+newtab-crossword-menu-powered-by-particle = Wót Particle spěchowany
 
 ## Strings introduced by the Nova redesign of the Timer widget
 

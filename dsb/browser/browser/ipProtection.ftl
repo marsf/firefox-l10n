@@ -467,5 +467,6 @@ vpn-error-page-keep-browsing = W toś tom pósejźenju dalej pśeglědowaś
 vpn-error-page-new-session = Nowe pósejźenje zachopiś
 vpn-paused-alert-close-tabs-button = Wšykne rejtariki zacyniś
 vpn-paused-alert-continue-wo-vpn-button = Bźez VPN pókšacowaś
+vpn-error-alert-title-1 = VPN a pšawidła rowno njefunkcioněruju.
 vpn-error-alert-title = VPN rowno njefunkcioněrujo.
 vpn-error-alert-body = Wopytajśo pózdźej hyšći raz.
