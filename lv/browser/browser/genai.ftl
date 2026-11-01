@@ -71,6 +71,9 @@ genai-more-actions-search =
     .label = Meklēt
 genai-more-actions-copy =
     .label = Ievietot starpliktuvē
+# The span is a right-pointing chevron that separates the steps of the path to
+# the setting, in place of a ">" character.
+genai-more-actions-all-off-notice = Tu neredzēsi šo izvēlni, kad iezīmēsi tekstu. Jāapmeklē Iestatījumi <span data-l10n-name="chevron"></span> Cilnes un pārlūkošana, lai to atkal rādītu.
 genai-more-actions-manage-settings =
     .label = Pārvaldīt iestatījumus
 genai-input-ask-generic =

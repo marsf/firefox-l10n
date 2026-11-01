@@ -367,6 +367,9 @@ onboarding-refresh-terms-of-use-with-links = Turpinot tu piekrīti <a data-l10n-
 onboarding-refresh-data-collection-link = Pārvaldīt datu vākšanas iestatījumus
 onboarding-refresh-primary-button = Turpināt
 onboarding-refresh-fro-import-header = Ņem līdzi savus datus
+# "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
+# Refers to personal data, indicating that ownership of imported data remains with the user.
+onboarding-refresh-fro-import-subtitle = Tie ir Tavi. { -brand-product-name } nekad nepārdod personīgos datus.
 onboarding-refresh-fro-import-body = Tavi personīgie dati paliek personīgi. { -brand-product-name } tos nekad nepārdos.
 onboarding-refresh-fro-skip-button = Izlaist
 onboarding-refresh-fro-theme-header = Spēlējies ar izskatu
