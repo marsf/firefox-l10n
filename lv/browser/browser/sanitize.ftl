@@ -82,6 +82,8 @@ item-cookies-site-data-with-size =
 item-cookies-site-data =
     .label = Sīkdatnes un vietņu dati
     .accesskey = e
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = Veic izrakstīšanu un var iztīrīt iepirkumu grozus
 item-cookies-site-data-description = Var izraisīt izrakstīšanos no vietnēm vai iepirkumu grozu iztukšošanu
 item-active-logins =
     .label = Aktīvos lietotājus
@@ -89,6 +91,17 @@ item-active-logins =
 item-cache =
     .label = Kešatmiņu
     .accesskey = K
+# Variables:
+#   $amount (Number) - Amount of cached data
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cached-content-with-size2 =
+    .label = Pagaidu datnes ({ $amount } { $unit })
+    .accesskey = d
+item-cached-content2 =
+    .label = Pagaidu datnes
+    .accesskey = d
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = Palīdz vietnēm ātrāk ielādēties
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
@@ -108,6 +121,10 @@ item-site-prefs =
 item-formdata-prefs =
     .label = Saglabātie veidlapu dati
     .accesskey = v
+# Description for the "Saved form info" item, which can be selected for deletion
+item-formdata-description2 = Vārdi, e-pasta adreses un veidlapu ieraksti
+# Description for the "Site settings" item, which can be selected for deletion
+item-site-prefs-description2 = Tīmekļvietņu atļaujas un iestatījumi
 item-formdata-description = Notīra tādus vienumus kā vārdus, e-pasta adreses un citas veidlapās ievadītās vērtības
 item-site-prefs-description = Atiestata atļaujas un vietņu pielāgošanas iestatījumus uz sākotnējiem iestatījumiem
 data-section-label = Dati
@@ -117,6 +134,7 @@ item-site-settings =
 item-offline-apps =
     .label = Lapu nesaistes datus
     .accesskey = t
+sanitize-everything-undo-warning2 = To nevar atdarīt.
 sanitize-everything-undo-warning = Šī ir neatgriezeniska darbība.
 window-close =
     .key = w
