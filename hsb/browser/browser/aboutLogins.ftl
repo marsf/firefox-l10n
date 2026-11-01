@@ -270,6 +270,15 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
         [few] To $count hesła wotstroni, kotrež sće w { -brand-short-name } na wšěch swojich synchronizowanych gratach składował. To tež warnowanja wo datowych dźěrach wotstroni, kotrež so tu pokazuja. Njemóžeće tutu akciju cofnyć.
        *[other] To $count hesłow wotstroni, kotrež sće w { -brand-short-name } na wšěch swojich synchronizowanych gratach składował. To tež warnowanja wo datowych dźěrach wotstroni, kotrež so tu pokazuja. Njemóžeće tutu akciju cofnyć.
     }
+# Message for modal to confirm the deletion of saved passwords when user IS synced with per-device sync.
+about-logins-confirm-delete-all-sync-dialog-message =
+    { $count ->
+        [1] To jón z { -brand-short-name } na kóždym graće zhaša, kotryž waše hesła synchronizuje. Njemóžeće to cofnyć.
+        [one] To jón z { -brand-short-name } na kóždym graće zhaša, kotryž waše hesła synchronizuje. Njemóžeće to cofnyć.
+        [two] To jej z { -brand-short-name } na kóždym graće zhaša, kotryž waše hesła synchronizuje. Njemóžeće to cofnyć.
+        [few] To je z { -brand-short-name } na kóždym graće zhaša, kotryž waše hesła synchronizuje. Njemóžeće to cofnyć.
+       *[other] To je z { -brand-short-name } na kóždym graće zhaša, kotryž waše hesła synchronizuje. Njemóžeće to cofnyć.
+    }
 
 ##
 
